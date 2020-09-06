@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/plugins/bootstrap.css" />
+    <link rel="stylesheet" href="./styles/list.css" />
+    <title>Список страниц</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- -------------- links -------------- -->
+      <h1 class="mt-3">Список страниц</h1>
+      <ul class="text-left mt-3">
+        <li><a href="#">Index</a></li>
+        <li><a href="#">02_Трансфер</a></li>
+        <li><a href="#">07_Трансфер</a></li>
+        <li><a href="#">10_Курьер</a></li>
+        <li><a href="#">11_Экскурсия</a></li>
+        <li><a href="#">12_Отзывы</a></li>
+        <li><a href="#">13_Условия Пользования</a></li>
+        <li><a href="#">17_Личный водтель</a></li>
+        <li><a href="#">19_Курьерская служба</a></li>
+        <li><a href="#">20_Трансфер</a></li>
+        <li><a href="#">21_бизнес</a></li>
+        <li><a href="#">22_О нас</a></li>
+        <li><a href="#">23_Обычная поездка</a></li>
+        <li><a href="#">24_Для инвесторов</a></li>
+        <li><a href="#">26_Личный кабинет_мои заказы</a></li>
+        <li><a href="#">26_Личный кабинет_личные данные</a></li>
+        <li><a href="#">26_Личный кабинет_безопасность</a></li>
+        <li><a href="#">27_Контакты</a></li>
+        <li><a href="#">28_Вход</a></li>
+        <li><a href="#">28_Вход email</a></li>
+        <li><a href="#">29_Регистрация</a></li>
+        <li><a href="#">31_Встреча в аэопорту</a></li>
+        <li><a href="#">33_Vip сапровождение в аэопорту</a></li>
+        <li><a href="#">36_Автопарк</a></li>
+      </ul>
+      <!-- -------------- modal-links ---------------- -->
+      <h1 class="mt-3">Модальные окна</h1>
+      <ul class="text-left mt-3">
+        <li>
+          <a class="modal__first__link" href="#">Обратный звонок</a>
+        </li>
+        <li>
+          <a class="modal__second__link" href="#">Спасибо!</a>
+        </li>
+        <li>
+          <a class="modal__third__link" href="#"
+            >Отправить заявку на подключение аккаунта для бизнеса</a
+          >
+        </li>
+        <li>
+          <a class="modal__fourth__link" href="#"
+            >Станьте водителем-партнером в своем городе</a
+          >
+        </li>
+        <li>
+          <a class="modal__fifth__link" href="#"
+            >Воспользовались нашими услугами и хотите оставить отзыв об этом?</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- ------------------- first__modal --------------------- -->
+    <div class="container">
+      <div class="modal__wrapper modal__wrapper_first hide">
+        <div class="first__modal">
+          <div class="modal__close__btn"></div>
+          <form>
+            <p class="modal__header modal__header_special">Обратный звонок</p>
+            <span class="modal__underline modal__underline_width"></span>
+            <div class="modal__content-wrapper">
+              <p class="heading__paragraph">Как вас зовут?</p>
+              <input
+                class="modal__input first__modal_margin"
+                type="text"
+                placeholder="Введите ваше имя"
+              />
+              <p class="heading__paragraph">Номер телефона</p>
+
+              <div class="modal__input_div first__modal_margin">
+                <img
+                  class="modal__input__img_first"
+                  src="./img/flag.png"
+                  alt=""
+                />
+                <span>+972</span
+                ><img
+                  class="modal__input__img_second"
+                  src="./img/erowDown.png"
+                  alt=""
+                />
+                <input
+                  class="modal__input_exeption"
+                  type="tel"
+                  placeholder="ХХХ-ХХ-ХХХ"
+                />
+              </div>
+
+              <p class="heading__paragraph">Вопрос или комментарий</p>
+              <textarea
+                class="modal__textarea_small first__modal_margin"
+                placeholder="Введите ваш комментарий"
+              ></textarea>
+              <p class="heading__paragraph">Предпочитаемое время</p>
+              <input
+                class="modal__input first__modal_margin"
+                type="text"
+                placeholder="Введите время звонка"
+              />
+              <div class="modal__captcha">
+                <input class="modal__captcha__input" type="checkbox" />
+                <span class="modal__captcha_first">I’m not a robot</span>
+                <img
+                  class="modal__captcha__img"
+                  src="./img/reCAPTCHA.png"
+                  alt=""
+                />
+                <span class="modal__captcha_second">reCAPTCHA</span>
+                <span class="modal__captcha_third">Privacy - Terms</span>
+              </div>
+              <button class="input__button input__button_align" type="submit">
+                Перезвоните мне
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------- second__modal --------------------- -->
+    <div class="container">
+      <div class="modal__wrapper modal__wrapper_second hide">
+        <div class="second__modal">
+          <div class="modal__close__btn modal__close__btn_special"></div>
+          <!-- <div class="second__modal"> -->
+          <img src="./img/ok-icon.svg" alt="" />
+          <p class="second__modal__heading">Спасибо!</p>
+          <p class="second__modal__item">В скором времени мы с Вами свяжемся</p>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- ------------------- third__modal --------------------- -->
+    <div class="container">
+      <div class="modal__wrapper modal__wrapper_third hide">
+        <div class="third__modal">
+          <div class="modal__close__btn"></div>
+          <form>
+            <p class="modal__header modal__header_special-third">
+              Отправить заявку на подключение аккаунта для бизнеса
+            </p>
+            <span class="modal__underline modal-third__underline_width"></span>
+            <div class="modal__content-wrapper">
+              <div class="modal__content-wrapper_block1">
+                <p class="heading__paragraph">Наименование компании</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите название компании"
+                />
+                <p class="heading__paragraph">Email</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="name@namesite.com"
+                />
+                <p class="heading__paragraph">Количество поездок (в мес.)</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Менее 5-ти"
+                />
+              </div>
+              <div class="modal__content-wrapper_block2">
+                <p class="heading__paragraph">Как вас зовут?</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите ваше имя"
+                />
+                <p class="heading__paragraph">Номер телефона</p>
+                <div class="modal__input_div modal_margin">
+                  <img
+                    class="modal__input__img_first"
+                    src="./img/flag.png"
+                    alt=""
+                  />
+                  <span>+972</span
+                  ><img
+                    class="modal__input__img_second"
+                    src="./img/erowDown.png"
+                    alt=""
+                  />
+                  <input
+                    class="modal__input_exeption"
+                    type="tel"
+                    placeholder="ХХХ-ХХ-ХХХ"
+                  />
+                </div>
+                <p class="heading__paragraph">Ваш город (в Израиле)</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите местоположение"
+                />
+              </div>
+              <p class="heading__paragraph">Комментарий</p>
+              <textarea
+                class="modal__textarea_large"
+                type="text"
+                placeholder="Напишите кратко о своей компании"
+              ></textarea>
+              <div class="modal__captcha_small">
+                <input class="modal__captcha__input_second" type="checkbox" />
+                <span class="modal__captcha_small-first">I’m not a robot</span>
+                <img
+                  class="modal__captcha_small-img_second"
+                  src="./img/reCAPTCHA.png"
+                  alt=""
+                />
+                <span class="modal__captcha_small-second">reCAPTCHA</span>
+                <span class="modal__captcha_small-third">Privacy - Terms</span>
+              </div>
+              <button
+                class="input__button input__button_align-third"
+                type="submit"
+              >
+                Отправить заявку
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------- fourth-modal --------------------- -->
+    <div class="container">
+      <div class="modal__wrapper modal__wrapper_fourth hide">
+        <div class="fourth__modal">
+          <div class="modal__close__btn"></div>
+          <form>
+            <p class="modal__header modal__header_special-fourth">
+              Станьте водителем-партнером в своем городе
+            </p>
+            <span class="modal__underline modal-third__underline_width"></span>
+            <div class="modal__content-wrapper">
+              <div class="modal__content-wrapper_block1">
+                <p class="heading__paragraph">Как Вас зовут (ФИО)?</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите ваше имя"
+                />
+                <p class="heading__paragraph">Email</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="name@namesite.com"
+                />
+                <p class="heading__paragraph">Знание инстранных языков</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Русский-хорошо, Английский- средне, Ив..."
+                />
+                <p class="heading__paragraph">Гос.номер</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="ХХ-ХХХХ"
+                />
+              </div>
+              <div class="modal__content-wrapper_block2">
+                <p class="heading__paragraph">Ваш город (в Израиле)</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите местоположение"
+                />
+                <p class="heading__paragraph">Номер телефона</p>
+                <div class="modal__input_div modal_margin">
+                  <img
+                    class="modal__input__img_first"
+                    src="./img/flag.png"
+                    alt=""
+                  />
+                  <span>+972</span
+                  ><img
+                    class="modal__input__img_second"
+                    src="./img/erowDown.png"
+                    alt=""
+                  />
+                  <input
+                    class="modal__input_exeption"
+                    type="tel"
+                    placeholder="ХХХ-ХХ-ХХХ"
+                  />
+                </div>
+                <p class="heading__paragraph">Марка авто</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Марка авто"
+                />
+                <p class="heading__paragraph">Пассажиров (max)</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Напрмиер: 4"
+                />
+              </div>
+              <p class="heading__paragraph">Немного о себе</p>
+              <textarea
+                class="modal__textarea_large"
+                type="text"
+                placeholder="Водительский стаж, опыт и т.д"
+              ></textarea>
+              <div class="modal__captcha_small modal__captcha_small-margin">
+                <input class="modal__captcha__input_second" type="checkbox" />
+                <span class="modal__captcha_small-first">I’m not a robot</span>
+                <img
+                  class="modal__captcha_small-img_second"
+                  src="./img/reCAPTCHA.png"
+                  alt=""
+                />
+                <span class="modal__captcha_small-second">reCAPTCHA</span>
+                <span class="modal__captcha_small-third">Privacy - Terms</span>
+              </div>
+              <button
+                class="input__button input__button_align-third"
+                type="submit"
+              >
+                Отправить заявку
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------- fifth__modal --------------------- -->
+    <div class="container">
+      <div class="modal__wrapper modal__wrapper_fifth hide">
+        <div class="fifth__modal">
+          <div class="modal__close__btn"></div>
+          <form>
+            <p class="modal__header modal__header_special-fifth">
+              Воспользовались нашими услугами и хотите оставить отзыв об этом?
+            </p>
+            <span class="modal__underline modal-third__underline_width"></span>
+            <div class="modal__content-wrapper">
+              <div class="modal__content-wrapper_block1">
+                <p class="heading__paragraph">Как Вас зовут?</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите ваше имя"
+                />
+
+                <p class="heading__paragraph">Email</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="name@namesite.com"
+                />
+              </div>
+              <div class="modal__content-wrapper_block2">
+                <p class="heading__paragraph">Откуда вы?</p>
+                <input
+                  type="text"
+                  class="modal__input modal_margin"
+                  placeholder="Введите город проживания"
+                />
+
+                <p class="heading__paragraph">Тип услуги</p>
+                <div class="input__fifth__wrapper">
+                  <input
+                    type="text"
+                    class="modal__input modal_margin"
+                    placeholder="Выберите услугу"
+                  />
+                  <img src="./img/erowDown.png" alt="" />
+                </div>
+              </div>
+              <p class="heading__paragraph_special">Ваша оценка:</p>
+              <img class="star" src="./img/yellow-star.png" alt="" />
+              <img class="star" src="./img/yellow-star.png" alt="" />
+              <img class="star" src="./img/yellow-star.png" alt="" />
+              <img class="star" src="./img/yellow-star.png" alt="" />
+              <img class="star" src="./img/white-star.png" alt="" />
+              <p class="heading__paragraph">Ваш отзыв</p>
+              <textarea
+                class="modal__textarea_large"
+                type="text"
+                placeholder="Напишите текст отзыва"
+              ></textarea>
+              <div class="modal__captcha_small">
+                <input class="modal__captcha__input_second" type="checkbox" />
+                <span class="modal__captcha_small-first">I’m not a robot</span>
+                <img
+                  class="modal__captcha_small-img_second"
+                  src="./img/reCAPTCHA.png"
+                  alt=""
+                />
+                <span class="modal__captcha_small-second">reCAPTCHA</span>
+                <span class="modal__captcha_small-third">Privacy - Terms</span>
+              </div>
+              <button
+                class="input__button input__button_align-third"
+                type="submit"
+              >
+                Отправить заявку
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
