@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Proxima-Nova";
+  src: url(../fonts/Proxima-Nova/Proxima-Nova.ttf);
+}
+
+body {
+  font-family: Roboto-Regular;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: Roboto-Bold;
+}
+
+.container,
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  max-width: 1920px;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  position: relative;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  line-height: normal;
+}
+
+img {
+  vertical-align: unset;
+}
+
+/* -------------- end of main styles -------------- */
+
+/* ------------------- footer ------------------ */
+.footer_bg {
+  background: #f0f8ff;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+  min-height: 340px;
+}
+
+.footer__logo-block {
+  margin-top: 45px;
+  margin-right: 68px;
+}
+
+.footer-logo__block__item {
+  width: 133px;
+  height: 40px;
+  margin-top: 22px;
+  font-family: Roboto-Light;
+  font-size: 13px;
+  line-height: 20px;
+  color: #535353;
+}
+
+.footer__block1,
+.footer__block2,
+.footer__block3,
+.footer__pay {
+  margin-top: 54px;
+  margin-right: 70px;
+}
+
+.footer__block1 {
+  width: 102px;
+}
+
+.footer__block2 {
+  width: 254px;
+}
+
+.footer__block3 {
+  width: 201px;
+}
+
+.footer__pay {
+  width: 160px;
+  margin-right: 0;
+}
+
+.footer__block__heading {
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #181818;
+  margin-bottom: 6px;
+}
+
+.footer__block__heading_exep {
+  margin-bottom: 9px;
+}
+
+.footer__block__item {
+  font-family: Roboto-Regular;
+  font-size: 13px;
+  line-height: 20px;
+  color: #535353;
+}
+
+.footer__img1,
+.footer__img2 {
+  width: 111.38px;
+  height: 33px;
+}
+
+.footer__img1 {
+  margin-bottom: 10px;
+}
+
+.footer__img2 {
+  margin-bottom: 27px;
+}
