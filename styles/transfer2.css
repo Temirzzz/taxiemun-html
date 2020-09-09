@@ -345,7 +345,7 @@ ul {
   background: #f6a409;
   color: #ffffff;
   font-family: Roboto-Bold;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   cursor: pointer;
 }
@@ -371,6 +371,21 @@ ul {
   right: 0;
 }
 
+.transfer__heading {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #181818;
+}
+
+.short__line {
+  margin-top: 16px;
+  margin-bottom: 33px;
+  width: 100px;
+  background: #f6a409;
+  border: 1.5px solid #f6a409;
+}
+
 .transfer-map {
   display: flex;
   flex-wrap: wrap;
@@ -391,21 +406,6 @@ ul {
 
 .transfer-map__wrapper {
   padding: 25px 26px 41px 24px;
-}
-
-.transfer__heading {
-  font-family: Roboto-Bold;
-  font-size: 36px;
-  line-height: 36px;
-  color: #181818;
-}
-
-.short__line {
-  margin-top: 16px;
-  margin-bottom: 33px;
-  width: 100px;
-  background: #f6a409;
-  border: 1.5px solid #f6a409;
 }
 
 .map-section__underline {
@@ -754,7 +754,7 @@ input[type="radio"] {
   line-height: 19px;
   text-align: center;
   color: #f6a409;
-  margin: 30px auto 80px;
+  margin: 19px auto 80px;
 }
 
 /* -------- mobile-app__social -------- */

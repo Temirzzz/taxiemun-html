@@ -345,7 +345,7 @@ ul {
   background: #f6a409;
   color: #ffffff;
   font-family: Roboto-Bold;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   cursor: pointer;
 }
@@ -381,7 +381,7 @@ ul {
   display: flex;
   flex-direction: column;
   width: 370px;
-  height: 480 px;
+  height: 480px;
   background: #ffffff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -504,6 +504,15 @@ ul {
   position: absolute;
   top: 28px;
   right: 13px;
+  width: 10px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.map-section__block__arrow2_big {
+  position: absolute;
+  top: 22px;
+  right: -160px;
   width: 10px;
   height: 4px;
   cursor: pointer;
@@ -652,7 +661,7 @@ input[type="radio"] {
   font-size: 18px;
   line-height: 24px;
   color: #181818;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   width: 270px;
   margin-right: 63px;
 }
@@ -670,6 +679,15 @@ input[type="radio"] {
   font-size: 14px;
   color: #181818;
   margin-bottom: 13px;
+}
+
+.transfer__card__block2__item4 {
+  width: 295px;
+  font-family: Roboto-Light;
+  font-size: 14px;
+  line-height: 20px;
+  color: #181818;
+  margin-bottom: 17px;
 }
 
 .transfer__card__block2__item3 {
@@ -754,7 +772,7 @@ input[type="radio"] {
   line-height: 19px;
   text-align: center;
   color: #f6a409;
-  margin: 30px auto 80px;
+  margin: 16px auto 80px;
 }
 
 /* -------- mobile-app__social -------- */

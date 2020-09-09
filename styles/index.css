@@ -336,7 +336,7 @@ ul {
   background: #f6a409;
   color: #ffffff;
   font-family: Roboto-Bold;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   cursor: pointer;
 }
@@ -462,6 +462,7 @@ ul {
   width: 1px;
   display: block;
   height: 60px;
+  background: #ffffff;
   border: 1px solid #ffffff;
   transform: rotate(180deg);
   margin-top: 6px;
