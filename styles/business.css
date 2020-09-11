@@ -377,9 +377,15 @@ ul {
   color: #818181;
 }
 
-/* ------------ map-section ------------ */
+/* -------------------------------- */
 
-.transfer__heading {
+.way__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.business__heading {
   font-family: Roboto-Bold;
   font-size: 36px;
   line-height: 36px;
@@ -388,43 +394,194 @@ ul {
 
 .short__line {
   margin-top: 16px;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   width: 100px;
   background: #f6a409;
   border: 1.5px solid #f6a409;
 }
 
-/* ------------------------- */
-
-.contract-block {
-  margin-bottom: 70px;
+.short__line_margin {
+  margin-bottom: 16px;
 }
 
-.main__item {
+.business__heading_small {
   font-family: Roboto-Bold;
   font-size: 26px;
   line-height: 36px;
   color: #181818;
-  margin-bottom: 9px;
+  margin-bottom: 35px;
 }
 
-.contract-block__item {
-  font-family: Gilroy;
+/* --------------- business__driver ---------------- */
+
+.business__driver {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.business__driver__header {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #181818;
+  margin-bottom: 20px;
+  margin-top: 13px;
+}
+
+.business__driver__wrapper {
+  padding-top: 30px;
+  margin-left: 64px;
+}
+
+.business__driver-block__item {
+  font-family: Gilroy-Light;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
 }
 
-.contract-block__item__header {
+.business__btn {
+  width: 180px;
+  height: 50px;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  border: none;
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ------------ business__list -------------- */
+
+.business__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.business__list__block__heading {
+  font-family: Roboto-Bold;
+  margin-bottom: 8px;
+  font-size: 26px;
+  line-height: 36px;
+  color: #181818;
+}
+
+.business__list__info {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
+  margin-bottom: 10px;
+}
+
+.business__list__heading {
   font-family: Gilroy-Bold;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
+  margin-bottom: 10px;
 }
 
-.contact-block__link {
-  text-decoration: none;
-  color: #f6a409;
+.business__list__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.business__list__block1 {
+  width: 544px;
+  margin-right: 30px;
+}
+
+.business__list__block2 {
+  width: 544px;
+}
+
+.point {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background: #004e97;
+  margin-right: 18px;
+  margin-bottom: 1px;
+}
+
+.business__list__info__wrapper {
+  padding: 88px 0 81px 0;
+  margin-bottom: 87px;
+}
+
+/* ---------- bussines__about-us ----------- */
+
+.bussines__about-us {
+  margin-bottom: 95px;
+}
+
+.bussines__about-us__block1 {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.bussines__about-us__block2 {
+  display: flex;
+}
+
+.bussines__about-us__item1,
+.bussines__about-us__item2 {
+  width: 640px;
+  margin-top: 15px;
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
+}
+
+.bussines__about-us__item1 {
+  margin-left: 64px;
+}
+
+.bussines__about-us__item2 {
+  margin-right: 64px;
+}
+
+.bussines__info-block {
+  width: 100%;
+  height: 180px;
+  border: 2px solid #004e97;
+  box-sizing: border-box;
+  padding: 40px 52px 0 52px;
+  margin-bottom: 90px;
+}
+
+.bussines__info-block p {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #181818;
+}
+
+.bussines__info-block__btn {
+  width: 180px;
+  height: 50px;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  border: none;
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-left: 443px;
 }
 
 /* -------- mobile-app__social -------- */

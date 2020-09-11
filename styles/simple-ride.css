@@ -377,9 +377,15 @@ ul {
   color: #818181;
 }
 
-/* ------------ map-section ------------ */
+/* -------------------------------- */
 
-.transfer__heading {
+.way__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.simple-ride__heading {
   font-family: Roboto-Bold;
   font-size: 36px;
   line-height: 36px;
@@ -388,43 +394,330 @@ ul {
 
 .short__line {
   margin-top: 16px;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   width: 100px;
   background: #f6a409;
   border: 1.5px solid #f6a409;
 }
 
-/* ------------------------- */
-
-.contract-block {
-  margin-bottom: 70px;
+.short__line_margin {
+  margin-bottom: 16px;
 }
 
-.main__item {
+.simple-ride__heading_small {
   font-family: Roboto-Bold;
   font-size: 26px;
   line-height: 36px;
   color: #181818;
-  margin-bottom: 9px;
+  margin-bottom: 21px;
+}
+/* --------------------------------- */
+/* ------------- simple-ride ------------- */
+
+.simple-ride {
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 80px;
 }
 
-.contract-block__item {
+.simple-ride__item2 {
+  margin: 34px 55px 21px 52px;
   font-family: Gilroy;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
 }
 
-.contract-block__item__header {
-  font-family: Gilroy-Bold;
+.simple-ride__button {
+  width: 170px;
+  height: 50px;
+  margin-left: 52px;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+  line-height: 50px;
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.simple-ride__block__item2 {
+  margin: 34px 55px 21px 52px;
+  font-family: Gilroy;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
 }
 
-.contact-block__link {
-  text-decoration: none;
-  color: #f6a409;
+/* ------------------ aeroport --------------------- */
+
+.simple-ride__drivers {
+  margin-bottom: 80px;
+}
+
+.simple-ride__drivers__block {
+  display: flex;
+}
+
+.simple-ride__drivers__block__img__wrapper {
+  width: 100%;
+  height: auto;
+  margin-right: 64px;
+}
+
+.simple-ride__drivers__block__img {
+  height: 500px;
+  width: 470px;
+}
+
+.simple-ride__drivers__block__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
+  margin-top: 30px;
+}
+
+/* -------------- ride-------------------- */
+
+.short__line_margin2 {
+  margin-bottom: 24px;
+}
+
+.ride__map-section {
+  width: 100%;
+  min-height: 426px;
+  background: #ffffff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 80px;
+}
+
+.ride__map-secton__main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ride__map-section__block {
+  width: 23.75rem;
+}
+
+.ride__map-section__block_m1 {
+  margin: 22px 7px 45px 30px;
+}
+
+.ride__input-block2 {
+  height: 30px;
+  float: left;
+  margin-top: 51px;
+}
+
+.ride__label1,
+.aeroport__label2 {
+  position: relative;
+  cursor: pointer;
+  position: relative;
+  font-size: 13px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.ride__label1:before,
+.ride__label2:before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  background: #f0f8ff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.ride__label2:before {
+  height: 30px;
+  width: 58px;
+  border-radius: 15px;
+}
+
+.ride__input__check1:checked + .ride__label1:before,
+.ride__input__check2:checked + .ride__label2:before {
+  content: url("/img/circle.png");
+  color: #004e97;
+  text-align: center;
+  line-height: 33px;
+}
+
+.ride__input__check2:checked + .ride__label2:before {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.ride__input-label__span1,
+.ride__input-label__span2,
+.ride__input-label__span3,
+.ride__input-label__span4 {
+  margin-top: 5px;
+  margin-left: 47px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  color: #181818;
+  line-height: 20px;
+}
+
+.ride__input-label__span1 {
+  margin-right: 30px;
+}
+
+.ride__input-label__span3,
+.aeroport__input-label__span4 {
+  margin-left: 70px;
+  line-height: 30px;
+}
+
+.ride__map-section__block__input1__wrapper {
+  position: relative;
+}
+
+.ride__map-section__block__img {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  cursor: pointer;
+}
+
+.ride__map-section__block__img_exep {
+  top: 56px;
+}
+
+.ride__map-section__block__arrow1 {
+  position: absolute;
+  top: 14px;
+  right: 13px;
+  width: 10px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.ride__map-section__block__arrow2 {
+  position: absolute;
+  top: 28px;
+  right: 13px;
+  width: 10px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.ride__input-label__span2 {
+  display: block;
+}
+
+.ride__map-section__block__wrapper1,
+.ride__map-section__block__wrapper2 {
+  float: left;
+  width: 11.25rem;
+  overflow: hidden;
+}
+
+.ride__map-section__block__wrapper2 {
+  margin-left: 20px;
+}
+
+.ride__map-section__block__heading {
+  margin-bottom: 10px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  color: #181818;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.ride__map-section__block__input {
+  background: #f0f8ff;
+  border: 1px solid #cbe6ff;
+  border-radius: 2px;
+  color: #181818;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Roboto-Light;
+  height: 2.87rem;
+  padding-left: 44px;
+  width: 11.25rem;
+}
+
+.ride__map-section__block__input_big {
+  width: 23.75rem;
+  height: 2.87rem;
+}
+
+.ride__input-block2__wrapper1 {
+  height: 30px;
+  margin-bottom: 7px;
+}
+
+.ride__map-section__button {
+  float: left;
+  margin-top: 67px;
+  width: 46px;
+  height: 46px;
+  background: #cbe6ff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.ride__map-section__block_m2 {
+  margin: 22px 30px 0 7px;
+}
+
+.ride__map-section__block__heading_soft {
+  opacity: 0.6;
+}
+
+.ride__exept {
+  display: inline-block;
+}
+
+.ride__map-section__block__button {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  margin-left: 16px;
+  margin-top: -3px;
+  cursor: pointer;
+}
+
+.ride__map-section__block_m3 {
+  margin-top: 67px;
+}
+
+.ride__map-section__block3__map {
+  width: 260px;
+  height: 386px;
+  border-radius: 2px;
+  background: url("../img/map3.png") no-repeat;
 }
 
 /* -------- mobile-app__social -------- */

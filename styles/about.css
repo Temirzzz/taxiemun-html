@@ -377,9 +377,15 @@ ul {
   color: #818181;
 }
 
-/* ------------ map-section ------------ */
+/* -------------------------------- */
 
-.transfer__heading {
+.way__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.about__heading {
   font-family: Roboto-Bold;
   font-size: 36px;
   line-height: 36px;
@@ -388,41 +394,205 @@ ul {
 
 .short__line {
   margin-top: 16px;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   width: 100px;
   background: #f6a409;
   border: 1.5px solid #f6a409;
 }
 
-/* ------------------------- */
-
-.contract-block {
-  margin-bottom: 70px;
+.short__line_margin {
+  margin-bottom: 16px;
 }
 
-.main__item {
+.about__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
+  margin-bottom: 40px;
+}
+
+/* ---------------- about-list ---------------- */
+
+.about-list {
+  margin-bottom: 89px;
+}
+
+.about-list__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-list__img {
+  margin-bottom: 50px;
+}
+
+.about-list__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.about-list__block1 {
+  width: 544px;
+  margin-right: 30px;
+}
+
+.about-list__block2 {
+  width: 544px;
+}
+
+.point {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background: #004e97;
+  margin-right: 18px;
+  margin-bottom: 1px;
+}
+
+.about-list__header1 {
+  width: 350px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.about-list__header2 {
+  width: 447px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+}
+
+/* --------------- about__driver ---------------- */
+
+.about__driver {
+  display: flex;
+  margin-bottom: 86px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about__driver__header {
   font-family: Roboto-Bold;
   font-size: 26px;
   line-height: 36px;
   color: #181818;
-  margin-bottom: 9px;
+  margin-bottom: 4px;
 }
 
-.contract-block__item {
-  font-family: Gilroy;
+.about__photo__wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.about__driver__img {
+  height: 340px;
+  width: 309px;
+}
+
+.about__driver__wrapper {
+  padding-top: 30px;
+  margin-left: 42px;
+}
+
+.about__driver-block__item {
+  font-family: Gilroy-Light;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
 }
 
-.contract-block__item__header {
+/* --------------- about__advantages ---------------- */
+
+.about__advantages1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.about__advantages2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__advantages__h3 {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #181818;
+}
+
+.about__short__line {
+  margin-top: 16px;
+  margin-bottom: 31px;
+  width: 100px;
+  background: #f6a409;
+  border: 1.5px solid #f6a409;
+}
+
+.about__advantages__block {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.about__advantages__block_exep {
+  margin: 0;
+}
+
+.about__advantages__img {
+  margin-bottom: 17px;
+}
+
+.about__advantages__item1 {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #181818;
+  margin-bottom: 8px;
+}
+
+.about__advantages__item2 {
+  font-family: Roboto-Light;
+  font-size: 16px;
+  line-height: 30px;
+  color: #181818;
+}
+
+.about__info-block {
+  height: 186px;
+  border: 2px solid #004e97;
+  box-sizing: border-box;
+  padding: 41px 52px;
+  margin-top: 114px;
+  margin-bottom: 90px;
+}
+
+.about__info-block p {
   font-family: Gilroy-Bold;
   font-size: 16px;
   line-height: 28px;
-  color: #535353;
+  text-align: center;
+  color: #181818;
 }
 
-.contact-block__link {
+.about__advantages__img__wrapper {
+  position: relative;
+}
+
+.about__advantages__img1 {
+  position: absolute;
+  top: 11px;
+  left: 10px;
+}
+
+.about__orange {
   text-decoration: none;
   color: #f6a409;
 }

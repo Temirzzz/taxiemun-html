@@ -29,6 +29,21 @@
   src: url(../fonts/Proxima-Nova/Proxima-Nova.ttf);
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy/gilroy-regular.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(../fonts/Gilroy/gilroy-bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(../fonts/Gilroy/gilroy-light.otf);
+}
+
 body {
   font-family: Roboto-Regular;
   line-height: 1.2;
@@ -63,8 +78,13 @@ h6,
   padding: 0;
 }
 
+.container-fluid_blue {
+  background: rgba(240, 248, 255, 0.7);
+}
+
 .container {
   max-width: 1170px;
+  position: relative;
   padding: 0;
 }
 

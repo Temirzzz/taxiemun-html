@@ -377,7 +377,13 @@ ul {
   color: #818181;
 }
 
-/* ------------ map-section ------------ */
+/* -------------------------------- */
+
+.way__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 .transfer__heading {
   font-family: Roboto-Bold;
@@ -388,43 +394,506 @@ ul {
 
 .short__line {
   margin-top: 16px;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   width: 100px;
   background: #f6a409;
   border: 1.5px solid #f6a409;
 }
 
-/* ------------------------- */
-
-.contract-block {
-  margin-bottom: 70px;
+.short__line_margin {
+  margin-bottom: 16px;
 }
 
-.main__item {
+.transfer__heading_small {
   font-family: Roboto-Bold;
   font-size: 26px;
   line-height: 36px;
   color: #181818;
-  margin-bottom: 9px;
+  margin-bottom: 21px;
+}
+/* --------------------------------- */
+/* ------------- transfer4-info ------------- */
+
+.transfer4-info {
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 80px;
 }
 
-.contract-block__item {
+.transfer4-block__item2 {
+  margin: 34px 55px 21px 52px;
   font-family: Gilroy;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
 }
 
-.contract-block__item__header {
+.transfer4-block__button {
+  width: 170px;
+  height: 50px;
+  margin-left: 52px;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+  line-height: 50px;
+  font-family: Roboto-Bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+/* ------------------ aeroport --------------------- */
+
+.aeroport {
+  margin-bottom: 71px;
+}
+
+.aeroport__block-first,
+.aeroport__block-second {
+  display: flex;
+}
+
+.aeroport__block__img__wrapper1 {
+  max-width: 470px;
+  max-height: 340px;
+  margin-bottom: 50px;
+  margin-right: 64px;
+}
+
+.aeroport__block__img__wrapper2 {
+  max-width: 470px;
+  max-height: 340px;
+  margin-bottom: 40px;
+  margin-right: 64px;
+}
+
+.aeroport__block__item1 {
   font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+
+.aeroport__block__item2 {
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+  margin-bottom: 15px;
+}
+
+.aeroport__block__item3 {
+  font-family: Gilroy-Light;
   font-size: 16px;
   line-height: 28px;
   color: #535353;
 }
 
-.contact-block__link {
-  text-decoration: none;
+.aeroport__block__item__wrapper {
+  margin-top: 30px;
+}
+
+/* ------------ aeroport__list -------------- */
+
+.aeroport__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 87px;
+}
+
+.aeroport__list__block__heading {
+  font-family: Roboto-Bold;
+  margin-bottom: 19px;
+  font-size: 26px;
+  line-height: 36px;
+  color: #181818;
+}
+
+.aeroport__list__lock__heading1 {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.aeroport__list__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #181818;
+}
+
+.aeroport__list__block1 {
+  width: 570px;
+  margin-right: 30px;
+}
+
+.aeroport__list__block2 {
+  width: 544px;
+}
+
+.point {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background: #004e97;
+  margin-right: 18px;
+  margin-bottom: 1px;
+}
+
+.orange {
   color: #f6a409;
+}
+
+/* ------------- aeroport__map-block */
+
+.short__line_margin2 {
+  margin-bottom: 24px;
+}
+
+.container-fluid_padding {
+  padding-top: 80px;
+  padding-bottom: 94px;
+  margin-bottom: 80px;
+}
+
+.aeroport__map-section {
+  width: 100%;
+  min-height: 487px;
+  background: #ffffff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.aeroport__map-secton__main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aeroport__map-section__block {
+  width: 23.75rem;
+}
+
+.aeroport__map-section__block_m1 {
+  margin: 41px 7px 45px 30px;
+}
+
+.aeroport__input-block1 {
+  height: 30px;
+  display: flex;
+}
+
+.aeroport__input-block2 {
+  height: 30px;
+  float: left;
+  margin-top: 35px;
+}
+
+.aeroport__label1,
+.aeroport__label2 {
+  position: relative;
+  cursor: pointer;
+  position: relative;
+  font-size: 13px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.aeroport__label1:before,
+.aeroport__label2:before {
+  content: "";
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  background: #f0f8ff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.aeroport__label2:before {
+  height: 30px;
+  width: 58px;
+  border-radius: 15px;
+}
+
+.aeroport__input__check1:checked + .aeroport__label1:before,
+.aeroport__input__check2:checked + .aeroport__label2:before {
+  content: url("/img/circle.png");
+  color: #004e97;
+  text-align: center;
+  line-height: 33px;
+}
+
+.aeroport__input__check2:checked + .aeroport__label2:before {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.aeroport__input-label__span1,
+.aeroport__input-label__span2,
+.aeroport__input-label__span3,
+.aeroport__input-label__span4 {
+  margin-top: 5px;
+  margin-left: 47px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  color: #181818;
+  line-height: 20px;
+}
+
+.aeroport__input-label__span1 {
+  margin-right: 30px;
+}
+
+.aeroport__input-label__span3,
+.aeroport__input-label__span4 {
+  margin-left: 70px;
+  line-height: 30px;
+}
+
+.aeroport__map-section__block__input1__wrapper {
+  position: relative;
+}
+
+.aeroport__map-section__block__img {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  cursor: pointer;
+}
+
+.aeroport__map-section__block__img_exep {
+  top: 56px;
+}
+
+.aeroport__map-section__block__arrow1 {
+  position: absolute;
+  top: 14px;
+  right: 13px;
+  width: 10px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.aeroport__map-section__block__arrow2 {
+  position: absolute;
+  top: 28px;
+  right: 13px;
+  width: 10px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.aeroport__input-label__span2 {
+  display: block;
+}
+
+.aeroport__map-section__block__wrapper1,
+.aeroport__map-section__block__wrapper2 {
+  float: left;
+  width: 11.25rem;
+  overflow: hidden;
+}
+
+.aeroport__map-section__block__wrapper2 {
+  margin-left: 20px;
+}
+
+.aeroport__map-section__block__heading {
+  margin-bottom: 10px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  color: #181818;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.aeroport__map-section__block__input {
+  background: #f0f8ff;
+  border: 1px solid #cbe6ff;
+  border-radius: 2px;
+  color: #181818;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: Roboto-Light;
+  /* opacity: 0.7; */
+  height: 2.87rem;
+  padding-left: 44px;
+  width: 11.25rem;
+}
+
+.aeroport__map-section__block__input_big {
+  width: 23.75rem;
+  height: 2.87rem;
+}
+
+.aeroport__input-block2__wrapper1 {
+  height: 30px;
+  margin-bottom: 7px;
+}
+
+.aeroport__map-section__button {
+  float: left;
+  margin-top: 115px;
+  width: 46px;
+  height: 46px;
+  background: #cbe6ff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.aeroport__map-section__block_m2 {
+  margin: 70px 30px 0 7px;
+}
+
+.aeroport__map-section__block__heading_soft {
+  opacity: 0.6;
+}
+
+.aeroport__exept {
+  display: inline-block;
+}
+
+.aeroport__map-section__block__button {
+  width: 180px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  margin-left: 16px;
+  margin-top: -3px;
+  cursor: pointer;
+}
+
+.aeroport__map-section__block_m3 {
+  margin-top: 49px;
+}
+
+.aeroport__map-section__block3__map {
+  width: 260px;
+  height: 386px;
+  border-radius: 2px;
+  background: url("../img/map.png") no-repeat;
+}
+
+/* --------------- aeroport__driver ---------------- */
+
+.aeroport__driver {
+  display: flex;
+  margin-bottom: 86px;
+}
+
+.aeroport__driver__header {
+  font-family: Roboto-Bold;
+  font-size: 26px;
+  line-height: 36px;
+  color: #181818;
+  margin-bottom: 4px;
+}
+
+.aeroport__driver__wrapper {
+  padding-top: 30px;
+  margin-left: 42px;
+}
+
+.aeroport__driver-block__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
+}
+
+/* --------------- aeroport__advantages ---------------- */
+
+.aeroport__advantages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aeroport__advantages__h3 {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #181818;
+}
+
+.aeroport__short__line {
+  margin-top: 16px;
+  margin-bottom: 31px;
+  width: 100px;
+  background: #f6a409;
+  border: 1.5px solid #f6a409;
+}
+
+.aeroport__advantages__block {
+  width: 270px;
+  height: 210px;
+  margin-right: 30px;
+}
+
+.aeroport__advantages__block_exep {
+  margin: 0;
+}
+
+.aeroport__advantages__img {
+  margin-bottom: 17px;
+}
+
+.aeroport__advantages__item1 {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #181818;
+  margin-bottom: 8px;
+}
+
+.aeroport__advantages__item2 {
+  font-family: Roboto-Light;
+  font-size: 17px;
+  line-height: 30px;
+  color: #181818;
+}
+
+.aeroport__info-block {
+  height: 167px;
+  border: 2px solid #004e97;
+  box-sizing: border-box;
+  padding: 41px 52px 42px 52px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.aeroport__info-block p {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #181818;
 }
 
 /* -------- mobile-app__social -------- */
