@@ -229,6 +229,10 @@ ul {
   display: none;
 }
 
+p {
+  line-height: unset;
+}
+
 /* --------------- header-menu ---------------- */
 
 .header-menu {
@@ -377,7 +381,7 @@ ul {
   color: #818181;
 }
 
-/* -------------------------------- */
+/*----------------------------------*/
 
 .way__img {
   position: absolute;
@@ -385,7 +389,7 @@ ul {
   right: 0;
 }
 
-.investors__heading {
+.transfer__heading {
   font-family: Roboto-Bold;
   font-size: 36px;
   line-height: 36px;
@@ -394,128 +398,101 @@ ul {
 
 .short__line {
   margin-top: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
   width: 100px;
   background: #f6a409;
   border: 1.5px solid #f6a409;
 }
 
-.short__line_margin {
-  margin-bottom: 16px;
+/* --------------- contact-info ---------------- */
+
+.contact__info {
+  display: flex;
+  margin-bottom: 27px;
 }
 
-.investors__item {
-  font-family: Gilroy-Light;
-  font-size: 16px;
-  line-height: 28px;
-  color: #535353;
-  margin-bottom: 40px;
-}
-
-/* -------------- investors__count --------------- */
-
-.investors__count {
-  height: 156px;
+.contact__info__block1,
+.contact__info__block2,
+.contact__info__block3 {
+  display: flex;
+  width: 370px;
+  height: 118px;
   background: #ffffff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
   border-radius: 6px;
-  margin-bottom: 60px;
 }
 
-.investors__count__item {
-  font-family: Roboto-Bold;
-  font-size: 26px;
-  line-height: 36px;
-  color: #181818;
-  padding: 60px 200px;
+.contact__info__block1,
+.contact__info__block2 {
+  margin-right: 30px;
 }
 
-.investors__count__item span {
-  font-family: Roboto-Bold;
-  font-size: 26px;
-  line-height: 36px;
-  color: #004e97;
+.contact__info__img {
+  width: 80px;
 }
 
-/* ---------------- investors-list ---------------- */
-
-.investors-list {
-  margin-bottom: 89px;
+.contact__info__img img {
+  margin-top: 47px;
+  margin-left: 29px;
 }
 
-.investors-list__wrapper {
+.contact__info__item-wrapper,
+.contact__info__item1,
+.contact__info__item2 {
+  width: 208px;
+}
+
+.contact__info__item-wrapper_big,
+.contact__info__item2_big {
+  width: 266px;
+}
+
+.contact__info__item-wrapper_big {
+  margin-top: 17px;
+}
+
+.contact__info__item-wrapper {
+  margin-top: 31px;
+}
+
+.contact__info__item1 {
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
+}
+
+.contact__info__item2,
+.contact__info__item2_big {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #535353;
+}
+
+.contact__map {
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+.contact__map img {
+  max-height: 500px;
+}
+
+/* ----------- contact-input ------------ */
+
+.contact__input {
   display: flex;
   flex-wrap: wrap;
 }
 
-.investors-list__img {
-  margin-bottom: 50px;
-}
-
-.investors-list__item {
-  font-family: Gilroy-Light;
-  font-size: 16px;
-  line-height: 28px;
-  color: #181818;
-}
-
-.investors-list__block1 {
-  width: 544px;
+.contact__input__block1 {
   margin-right: 30px;
 }
 
-.investors-list__block2 {
-  width: 544px;
-}
-
-.point {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border: none;
-  border-radius: 50%;
-  background: #004e97;
-  margin-right: 18px;
-  margin-bottom: 1px;
-}
-
-.investors-list__header1 {
-  width: 350px;
-  font-family: Gilroy-Bold;
-  font-size: 20px;
-  line-height: 28px;
-  color: #181818;
-}
-
-.investors-list__header2 {
-  width: 447px;
-  font-family: Gilroy-Bold;
-  font-size: 20px;
-  line-height: 28px;
-  color: #181818;
-}
-
-/* -------- investors__input__block ------- */
-
-.orange {
-  color: #f6a409;
-}
-
-.investors__input__block {
-  display: flex;
-}
-
-.investors__input__block1 {
-  width: 370px;
-  margin-right: 30px;
-}
-
-.investors__input__block2 {
-  width: 770px;
-}
-
-.investors__heading_small {
+.contact__input__block1__heading {
   font-family: Roboto-Bold;
   font-size: 16px;
   line-height: 20px;
@@ -523,9 +500,13 @@ ul {
   margin-bottom: 10px;
 }
 
-.investors__input {
-  width: 23.12rem;
-  height: 2.87rem;
+.contact__input__block1__heading span {
+  color: #f6a409;
+}
+
+.contact__input__block1 input {
+  width: 370px;
+  height: 46px;
   background: #f0f8ff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -533,25 +514,24 @@ ul {
   margin-bottom: 16px;
 }
 
-.investors__textarea {
-  width: 48.12rem;
-  height: 14.37rem;
+.contact__input__block2 textarea {
+  width: 770px;
+  height: 230px;
   background: #f0f8ff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
   border-radius: 2px;
-  margin-bottom: 16px;
   resize: none;
 }
 
-/* ---------- investors-captcha ---------- */
+/* ---------- contacts-captcha ---------- */
 
-.investors__captcha__block {
+.contact__captcha__block {
   display: flex;
   justify-content: flex-end;
 }
 
-.investors__captcha input {
+.contact__captcha input {
   width: 25.73px;
   height: 25.73px;
   background: #ffffff;
@@ -559,7 +539,7 @@ ul {
   border-radius: 0.91875px;
 }
 
-.investors__btn {
+.contact__btn {
   width: 150px;
   height: 44px;
   background: #f6a409;
@@ -576,12 +556,12 @@ ul {
   cursor: pointer;
 }
 
-.investors__captcha__block {
+.contact__captcha__block {
   margin-top: 7px;
-  margin-bottom: 68.18px;
+  margin-bottom: 80px;
 }
 
-.investors__captcha {
+.contact__captcha {
   display: flex;
   position: relative;
   width: 294px;
@@ -594,24 +574,24 @@ ul {
   padding-left: 11.64px;
 }
 
-.investors__captcha p {
+.contact__captcha p {
   margin-top: 3px;
   margin-left: 11px;
 }
 
-.investors__captcha__img,
-.investors__captcha__text {
+.contact__captcha__img,
+.contact__captcha__text {
   position: absolute;
 }
 
-.investors__captcha__img {
+.contact__captcha__img {
   width: 38.6px;
   height: 38.6px;
   top: 6.43px;
   right: 17.46px;
 }
 
-.investors__captcha__text {
+.contact__captcha__text {
   right: 14.7px;
   top: 44px;
 }
