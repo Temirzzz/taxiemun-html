@@ -404,6 +404,8 @@ ul {
   margin-bottom: 16px;
 }
 
+/* ---------------- about-list ---------------- */
+
 .about__item {
   font-family: Gilroy-Light;
   font-size: 16px;
@@ -411,8 +413,6 @@ ul {
   color: #535353;
   margin-bottom: 40px;
 }
-
-/* ---------------- about-list ---------------- */
 
 .about-list {
   margin-bottom: 89px;

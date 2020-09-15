@@ -507,7 +507,7 @@ ul {
   color: #181818;
 }
 
-/* ----------- info__block ------------ */
+/* ----------- courier-info-block ------------ */
 
 .courier__infoblock__item {
   margin-top: 16px;
@@ -516,6 +516,13 @@ ul {
   font-size: 18px;
   line-height: 28px;
   color: #181818;
+}
+
+.courier-block__item {
+  font-family: Gilroy-Light;
+  font-size: 16px;
+  line-height: 28px;
+  color: #535353;
 }
 
 .courier__info__block {
@@ -535,25 +542,19 @@ ul {
   background: rgba(240, 248, 255, 0.6);
 }
 
-.courier__info__block__item {
-  font-family: Gilroy;
-  font-size: 16px;
+.courier__info-block__item {
+  font-family: Roboto-Bold;
+  font-size: 18px;
   line-height: 28px;
   color: #181818;
+  margin-top: 16px;
 }
 
-.courier__info__block__item span {
-  font-family: Gilroy-Bold;
-  font-size: 16px;
-  line-height: 28px;
-  color: #181818;
-}
-
-.courier__infoblock__card__img-block {
+.courier__info-block__card__img-block {
   position: relative;
 }
 
-.courier__infoblock__card__img-block img {
+.courier__info-block__card__img-block img {
   position: absolute;
 }
 
@@ -575,20 +576,20 @@ ul {
   color: #004e97;
 }
 
-.courier__infoblock__card__item {
+.courier__info-block__card__item {
   width: 190px;
   padding-top: 86px;
   margin-right: 55px;
 }
 
-.courier__infoblock__card__item p {
+.courier__info-block__card__item p {
   font-family: Roboto-Light;
   font-size: 16px;
   line-height: 28px;
   color: #181818;
 }
 
-/* ---------- courier-info-block ----------- */
+/* ---------- courier-info-block2 ----------- */
 
 .courier-info-block {
   margin-bottom: 87px;
@@ -758,17 +759,17 @@ ul {
   display: flex;
 }
 
-.input-block__wrapper__main {
+.courier__input-block__wrapper__main {
   display: flex;
   padding-top: 15px;
 }
 
-.input-block__wrapper {
+.courier__input-block__wrapper {
   margin-right: 52px;
   width: 120px;
 }
 
-.label1 {
+.courier__label1 {
   position: relative;
   cursor: pointer;
   position: relative;
@@ -779,7 +780,7 @@ input[type="radio"] {
   display: none;
 }
 
-.label1:before {
+.courier__label1:before {
   content: "";
   display: block;
   height: 26px;
@@ -792,14 +793,14 @@ input[type="radio"] {
   position: absolute;
 }
 
-.input__check1:checked + .label1:before {
+.courier__input__check1:checked + .courier__label1:before {
   content: url("/img/circle.png");
   color: #004e97;
   text-align: center;
   line-height: 30px;
 }
 
-.input-label__span {
+.courier__input-label__span {
   margin-left: 39px;
   font-family: Roboto-Regular;
   font-size: 15px;

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="../styles/contacts.css" /> -->
+    <!-- <link rel="stylesheet" href="../styles/enter.css" /> -->
     <link rel="stylesheet" href="../styles/style.css" />
     <title>Document</title>
   </head>
@@ -122,105 +122,52 @@
         </div>
         <div class="page-description__wrapper">
             <div class="container">            
-                <p class="page__description">Главная  &gt;  Контакты</p>
+                <p class="page__description">Главная  &gt; Контакты</p>
             </div>
         </div>        
     </div>
     
     <section>
         <div class="container">        
-            <p class="transfer__heading">Контакты</p>
-            <div class="short__line"></div>
+            <p class="enter__heading">Войти в личный кабинет</p>
+            <div class="short__line_spec"></div>
         </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="contact__info">
-                <div class="contact__info__block1">
-                    <div class="contact__info__img">
-                        <img src="../img/phone.png" alt="">
-                    </div>
-                    <div class="contact__info__item-wrapper">
-                        <p class="contact__info__item1">Tel/Viber/Whatsapp</p>
-                        <p class="contact__info__item2">+972-50-444 55 88</p>
-                    </div>
-                </div>
-                <div class="contact__info__block2">
-                    <div class="contact__info__img">
-                        <img src="../img/email.png" alt="">
-                    </div>
-                    <div class="contact__info__item-wrapper">
-                        <p class="contact__info__item1">Email:</p>
-                        <p class="contact__info__item2">info@taxiemun.com</p>
-                    </div>
-                </div>
-                <div class="contact__info__block3">
-                    <div class="contact__info__img">
-                        <img src="../img/big-map.svg" alt="">
-                    </div>
-                    <div class="contact__info__item-wrapper_big">
-                        <p class="contact__info__item1">Адрес</p>
-                        <p class="contact__info__item2_big">ул.Давид Ремез 13б Нетания, Израиль</p>
-                    </div>
-                </div> 
+        <div class="enter__form">
+            <div class="enter__radio">
+                <input class="enter__input__check1" id="radio1" type="radio" name="radInp" checked/>
+                <label class="enter__label1" id="label1" for="radio1"></label>
+                <span class="enter__input-label__span1">Номер телефона</span>  
+                <input class="enter__input__check1" id="radio2" type="radio" name="radInp" />
+                <label class="enter__label1" id="label2" for="radio2"></label>
+                <span class="enter__input-label__span2">Email адрес</span>
             </div>
-            <div class="contact__map">
-                <img src="../img/bigest-map.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">        
-            <p class="transfer__heading">Обратная связь</p>
-            <div class="short__line"></div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="contact__input">
-                <div class="contact__input__block1">
-                    <p class="contact__input__block1__heading">Имя<span>*</span>:</p>
-                    <input type="text">
-                    <p class="contact__input__block1__heading">Телефон<span>*</span>:</p>
-                    <input type="text">
-                    <p class="contact__input__block1__heading">E-mail<span>*</span>:</p>
-                    <input type="text">
+            <div class="enter__input__wrapper">
+                <p class="enter__input__wrapper__heading">Номер телефона</p>
+                <div class="enter__input__container">
+                    <div class="enter__content__wrapper">
+                        <img class="enter__input__wrapper__img1" src="../img/flag.png" alt="">
+                        <span>+972</span>
+                        <img class="enter__input__wrapper__img2" src="../img/arrow-down-gold.png" alt="">
+                    </div> 
+                    <div class="enter__input__wrapper__line"></div>
+                    <input class="enter__input_first" type="text" placeholder="XXX-XX-XXX">
                 </div>
-                <div class="contact__input__block2">
-                    <p class="contact__input__block1__heading">Комментарий:</p>
-                    <textarea></textarea> 
+                <p class="enter__input__wrapper__heading">Ваш пароль</p>
+                <div class="enter__input__container">
+                    <input class="enter__input_second" type="text" placeholder="XXXXXXXXXXXXXXXX">
                 </div>
             </div>
-            <div class="contact__captcha__block">                                        
-                <div class="contact__captcha">
-                    <input type="checkbox">
-                    <p>I’m not a robot</p>
-                    <img class="contact__captcha__img" src="../img/CAPTCHA.png" alt="">
-                    <img class="contact__captcha__text" src="../img/captchatext.png" alt="">
-                </div>       
-                <button class="contact__btn">Отправить</button>  
-            </div>  
+            <div class="enter__form__button__wrapper">
+                <button>Войти</button>
+            </div>
+            
+            <p class="enter__form_quastion">Забыли пароль? <span><a href="#">Восстановить</a></span></p>
+            <p class="enter__form_quastion">Еще не зарегестрированы? <span><a href="#">Регистрация</a></span></p>
         </div>
     </section>
 
     <section>
         <div class="container-fluid">        
-          <div class="container">
-              <div class="mobile-app__social">
-                <p class="mobile-app__social__item">Поделится в социальных сетях:</p>
-                <div class="mobile-app__social__block">
-                  <img src="../img/Facebook.svg" alt="">
-                  <img src="../img/Vimeo.svg" alt="">
-                  <img src="../img/LinkedIn.svg" alt="">
-                  <img src="../img/Google.svg" alt="">
-                  <img src="../img/Vkontakte.svg" alt="">
-                  <img src="../img/Odnoklassniki.svg" alt="">
-                </div>
-              </div>
-            </div> 
             <button class="up__btn"><img src="../img/white-arrow-down.png" alt=""></button>
             <div class="message__send"><img src="../img/chat.png" alt=""></div>
             <div class="footer__line"></div>   
@@ -278,6 +225,5 @@
           </div>
         </footer>
     </div> 
-
   </body>
 </html>

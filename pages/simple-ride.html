@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/courier.css">
-    <title>Document</title>
-  </head>
-  <body>
     <!DOCTYPE html>
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../styles/simple-ride.css" />
+        <!-- <link rel="stylesheet" href="../styles/simple-ride.css" /> -->
+        <link rel="stylesheet" href="../styles/style.css" />
         <title>Document</title>
       </head>
       <body>
@@ -236,53 +228,56 @@
                         <p class="ride__map-section__block__heading ride__hide-on-small">Куда:</p>
                         <div class="ride__map-section__block__input1__wrapper ride__hide-on-small">                
                             <img class="ride__map-section__block__img" src="../img/plain.png" alt="">
-                        <input class="ride__map-section__block__input ride__map-section__block__input_big" type="text" placeholder="Напишите название аэропорта">
-                        </div>              
-                        <div class="ride__map-section__block__wrapper1 ride__map-section__block__heading_soft ride__hide-on-small">
-                            <p class="ride__map-section__block__heading">Дата:</p>
-                            <div class="ride__map-section__block__input1__wrapper">
-                            <img class="ride__map-section__block__img" src="../img/calendar.png" alt="">
-                            <input class="ride__map-section__block__input" type="text" placeholder="05.08.2020">
-                            </div>                
-                            <p class="ride__map-section__block__heading ride__hide-on-small">Пассажиров:</p>
-                            <div class="ride__map-section__block__input1__wrapper">
-                            <img class="ride__map-section__block__img" src="../img/man.png" alt="">
-                            <input class="ride__map-section__block__input" type="text" placeholder="2">
-                            <img class="ride__map-section__block__arrow1" src="../img/arrow-up-gold.png" alt="">
-                            <img class="ride__map-section__block__arrow2" src="../img/arrow-down-gold.png" alt="">
-                            </div>                
-                        </div>  
-                        <div class="ride__map-section__block__wrapper2 ride__map-section__block__heading_soft ride__hide-on-small">
+                            <input class="ride__map-section__block__input ride__map-section__block__input_big" type="text" placeholder="Напишите название аэропорта">
+                            </div>              
+                                <div class="ride__map-section__block__wrapper1 ride__map-section__block__heading_soft       ride__hide-on-small">
+                                    <p class="ride__map-section__block__heading">Дата:</p>
+                                    <div class="ride__map-section__block__input1__wrapper">
+                                    <img class="ride__map-section__block__img" src="../img/calendar.png" alt="">
+                                    <input class="ride__map-section__block__input" type="text" placeholder="05.08.2020">
+                                    </div>                
+                                    <p class="ride__map-section__block__heading ride__hide-on-small">Пассажиров:</p>
+                                <div class="ride__map-section__block__input1__wrapper">
+                                    <img class="ride__map-section__block__img" src="../img/man.png" alt="">
+                                    <input class="ride__map-section__block__input" type="text" placeholder="2">
+                                    <img class="ride__map-section__block__arrow1" src="../img/arrow-up-gold.png" alt="">
+                                    <img class="ride__map-section__block__arrow2" src="../img/arrow-down-gold.png" alt="">
+                                </div>                
+                            </div>  
+                            <div class="ride__map-section__block__wrapper2 ride__map-section__block__heading_soft ride__hide-on-small">
                             <p class="ride__map-section__block__heading">Время:</p>
-                            <div class="ride__map-section__block__input1__wrapper">
-                            <img class="ride__map-section__block__img" src="../img/clock.png" alt="">
-                            <input class="ride__map-section__block__input" type="text" placeholder="12:44 AM">
+                                <div class="ride__map-section__block__input1__wrapper">
+                                <img class="ride__map-section__block__img" src="../img/clock.png" alt="">
+                                <input class="ride__map-section__block__input" type="text" placeholder="12:44 AM">
                             </div>                
                             <p class="ride__map-section__block__heading ride__hide-on-small">Багаж:</p>
                             <div class="ride__map-section__block__input1__wrapper">
-                            <img class="ride__map-section__block__img" src="../img/luggage.png" alt="">
-                            <input class="ride__map-section__block__input" type="text" placeholder="3">
-                            <img class="ride__map-section__block__arrow1" src="../img/arrow-up-gold.png" alt="">
-                            <img class="ride__map-section__block__arrow2" src="../img/arrow-down-gold.png" alt="">
+                                <img class="ride__map-section__block__img" src="../img/luggage.png" alt="">
+                                <input class="ride__map-section__block__input" type="text" placeholder="3">
+                                <img class="ride__map-section__block__arrow1" src="../img/arrow-up-gold.png" alt="">
+                                <img class="ride__map-section__block__arrow2" src="../img/arrow-down-gold.png" alt="">
                             </div>                
                         </div>   
+
+
+                        <p class="ride__map-section__block__heading ride__map-section_exep">Промокод:</p>
                         <div class="ride__map-section__block__input1__wrapper ride__map-section_exept aeroport__exept ride__hide-on-small">
+                            
+                            <input class="ride__map-section__block__input" type="text" placeholder="ХХХХ-ХХХ_ХХХХ">
+                            <button class="ride__map-section__block__button">Подобрать</button>
+                        </div>      
+                        
+                        
+                        </div>  
+                        <div class="ride__map-section__block_exept ride__map-section__block_m3">
+                            <div class="ride__map-section__block3__map"></div>
+                        </div> 
+
+                            <div class="ride__map-section__block__input1__wrapper ride__map-section_exept hidden">
                             <p class="ride__map-section__block__heading">Промокод:</p>
                             <img class="ride__map-section__block__img ride__map-section__block__img_exep" src="../img/sales.png" alt="">
                             <input class="ride__map-section__block__input" type="text" placeholder="ХХХХ-ХХХ_ХХХХ">
                             <button class="ride__map-section__block__button">Подобрать</button>
-                        </div>              
-                        </div>  
-                        <div class="ride__map-section__block_exept ride__map-section__block_m3">
-                        <div class="ride__map-section__block3__map">
-                            
-                        </div>
-                        </div> 
-                        <div class="ride__map-section__block__input1__wrapper ride__map-section_exept hidden">
-                        <p class="ride__map-section__block__heading">Промокод:</p>
-                        <img class="ride__map-section__block__img ride__map-section__block__img_exep" src="../img/sales.png" alt="">
-                        <input class="ride__map-section__block__input" type="text" placeholder="ХХХХ-ХХХ_ХХХХ">
-                        <button class="ride__map-section__block__button">Подобрать</button>
                         </div>
                     </div>
                     </div>     

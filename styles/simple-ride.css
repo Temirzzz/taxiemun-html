@@ -385,13 +385,6 @@ ul {
   right: 0;
 }
 
-.simple-ride__heading {
-  font-family: Roboto-Bold;
-  font-size: 36px;
-  line-height: 36px;
-  color: #181818;
-}
-
 .short__line {
   margin-top: 16px;
   margin-bottom: 30px;
@@ -399,6 +392,9 @@ ul {
   background: #f6a409;
   border: 1.5px solid #f6a409;
 }
+
+/* --------------------------------- */
+/* ------------- simple-ride ------------- */
 
 .short__line_margin {
   margin-bottom: 16px;
@@ -411,8 +407,13 @@ ul {
   color: #181818;
   margin-bottom: 21px;
 }
-/* --------------------------------- */
-/* ------------- simple-ride ------------- */
+
+.simple-ride__heading {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+  line-height: 36px;
+  color: #181818;
+}
 
 .simple-ride {
   height: 200px;
@@ -455,7 +456,7 @@ ul {
   color: #535353;
 }
 
-/* ------------------ aeroport --------------------- */
+/* ------------------ simple-ride-drivers --------------------- */
 
 .simple-ride__drivers {
   margin-bottom: 80px;
@@ -484,7 +485,7 @@ ul {
   margin-top: 30px;
 }
 
-/* -------------- ride-------------------- */
+/* -------------- ride-map-------------------- */
 
 .short__line_margin2 {
   margin-bottom: 24px;
@@ -521,8 +522,7 @@ ul {
   margin-top: 51px;
 }
 
-.ride__label1,
-.aeroport__label2 {
+.ride__label1 {
   position: relative;
   cursor: pointer;
   position: relative;
@@ -682,10 +682,6 @@ input[type="radio"] {
 
 .ride__map-section__block_m2 {
   margin: 22px 30px 0 7px;
-}
-
-.ride__map-section__block__heading_soft {
-  opacity: 0.6;
 }
 
 .ride__exept {

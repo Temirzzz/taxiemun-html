@@ -384,12 +384,21 @@ ul {
   right: 0;
 }
 
-.transfer-map {
+.short__line {
+  margin-top: 16px;
+  margin-bottom: 33px;
+  width: 100px;
+  background: #f6a409;
+  border: 1.5px solid #f6a409;
+}
+/*---------------- transfer3 --------------------*/
+
+.transfer3-map {
   display: flex;
   flex-wrap: wrap;
 }
 
-.transfer-map__block1 {
+.transfer3-map__block1 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -403,41 +412,33 @@ ul {
   margin-bottom: 80px;
 }
 
-.transfer-map__wrapper {
+.transfer3-map__wrapper {
   position: relative;
   padding: 17px 0 37px 24px;
 }
 
-.transfer-map__wrapper img {
+.transfer3-map__wrapper img {
   position: absolute;
   right: 26px;
   bottom: 49px;
   cursor: pointer;
 }
 
-.transfer__heading {
+.transfer3__heading {
   font-family: Roboto-Bold;
   font-size: 36px;
   line-height: 36px;
   color: #181818;
 }
 
-.short__line {
-  margin-top: 16px;
-  margin-bottom: 33px;
-  width: 100px;
-  background: #f6a409;
-  border: 1.5px solid #f6a409;
-}
-
-.map-section__underline {
+.transfer3-map-section__underline {
   margin: 25px auto 0;
   width: 354px;
   background: #cbe6ff;
   border: 1px solid #cbe6ff;
 }
 
-.map-section__block__heading {
+.transfer3-map-section__block__heading {
   margin-bottom: 10px;
   font-family: Roboto-Bold;
   font-size: 16px;
@@ -446,11 +447,11 @@ ul {
   margin-top: 16px;
 }
 
-.exept {
+.transfer3-exept {
   margin-top: 0;
 }
 
-.map-section__block__heading_big {
+.transfer3-map-section__block__heading_big {
   font-family: Roboto-Bold;
   font-size: 18px;
   line-height: 24px;
@@ -459,20 +460,20 @@ ul {
   margin-top: 25px;
 }
 
-.map-section__block__input1__wrapper {
+.transfer3-map-section__block__input1__wrapper {
   display: inline-block;
   width: 150px;
   position: relative;
 }
 
-.map-section__block__img {
+.transfer3-map-section__block__img {
   position: absolute;
   top: 14px;
   left: 12px;
   cursor: pointer;
 }
 
-.map-section__block__input {
+.transfer3-map-section__block__input {
   background: #f0f8ff;
   border: 1px solid #cbe6ff;
   border-radius: 2px;
@@ -480,28 +481,27 @@ ul {
   line-height: 20px;
   font-size: 14px;
   font-family: Roboto-Light;
-  /* opacity: 0.7; */
   height: 2.87rem;
   padding-left: 44px;
   width: 11.25rem;
 }
 
-.map-section__block__input_middle {
+.transfer3-map-section__block__input_middle {
   width: 17.81rem;
   height: 2.87rem;
 }
 
-.input-block__wrapper__main {
+.transfer3-input-block__wrapper__main {
   display: flex;
   padding: 20px 0 0 24px;
 }
 
-.input-block__wrapper {
+.transfer3-input-block__wrapper {
   margin-right: 52px;
   width: 120px;
 }
 
-.label1 {
+.transfer3-label1 {
   position: relative;
   cursor: pointer;
   position: relative;
@@ -512,7 +512,7 @@ input[type="radio"] {
   display: none;
 }
 
-.label1:before {
+.transfer3-label1:before {
   content: "";
   display: block;
   height: 26px;
@@ -525,14 +525,14 @@ input[type="radio"] {
   position: absolute;
 }
 
-.input__check1:checked + .label1:before {
+.transfer3-input__check1:checked + .transfer3-label1:before {
   content: url("/img/circle.png");
   color: #004e97;
   text-align: center;
   line-height: 30px;
 }
 
-.input-label__span {
+.transfer3-input-label__span {
   margin-left: 39px;
   font-family: Roboto-Regular;
   font-size: 15px;
@@ -542,13 +542,13 @@ input[type="radio"] {
   margin-bottom: 10px;
 }
 
-/* ----------- transfer-map__block2 ----------- */
+/* ----------- transfer3-map__block2 ----------- */
 
-.transfer-map__block2 {
+.transfer3-map__block2 {
   width: 770px;
 }
 
-.transfer__card {
+.transfer3__card {
   display: flex;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -556,12 +556,12 @@ input[type="radio"] {
   margin-bottom: 11px;
 }
 
-.transfer__card__block1 {
+.transfer3__card__block1 {
   position: relative;
   padding: 9px;
 }
 
-.label {
+.transfer3-label {
   bottom: 26px;
   right: 20px;
   position: absolute;
@@ -576,11 +576,11 @@ input[type="radio"] {
   color: #ffffff;
 }
 
-.transfer__card__block2 {
+.transfer3__card__block2 {
   margin: 31px 0 0 19px;
 }
 
-.transfer__card__block2__item1 {
+.transfer3__card__block2__item1 {
   font-family: Roboto-Bold;
   font-size: 18px;
   line-height: 24px;
@@ -590,24 +590,24 @@ input[type="radio"] {
   margin-bottom: 16px;
 }
 
-.transfer__card__block2__item1 span {
+.transfer3__card__block2__item1 span {
   font-family: Roboto-Light;
   font-size: 14px;
   line-height: 20px;
   color: #181818;
 }
 
-.transfer__card__block2__item1__wrapper {
+.transfer3__card__block2__item1__wrapper {
   position: relative;
   height: 20px;
   line-height: 20px;
 }
 
-.transfer__card__block2__item1__wrapper img {
+.transfer3__card__block2__item1__wrapper img {
   position: absolute;
 }
 
-.transfer__card__block2__item2 {
+.transfer3__card__block2__item2 {
   font-family: Roboto-Regular;
   font-size: 14px;
   color: #181818;
@@ -615,30 +615,30 @@ input[type="radio"] {
   margin-left: 36px;
 }
 
-.transfer__card__block2__item3 {
+.transfer3__card__block2__item3 {
   height: 20px;
   font-family: Roboto-Regular;
   font-size: 14px;
   color: #181818;
 }
 
-.transfer__card__block2__item2 img,
-.transfer__card__block2__item3 img {
+.transfer3__card__block2__item2 img,
+.transfer3__card__block2__item3 img {
   margin-right: 11.7px;
 }
 
-.vertical__line {
+.transfer3-vertical__line {
   height: 156px;
   border: 0.5px solid #cbe6ff;
   transform: rotate(180deg);
   margin: auto 0;
 }
 
-.item__wrapper {
+.transfer3-item__wrapper {
   display: flex;
 }
 
-.transfer__card__block3__item1 {
+.transfer3__card__block3__item1 {
   font-family: Roboto-Bold;
   font-size: 16px;
   color: #535353;
@@ -648,14 +648,14 @@ input[type="radio"] {
   margin-right: 15px;
 }
 
-.transfer__card__block3__item2 {
+.transfer3__card__block3__item2 {
   font-family: Roboto-Bold;
   font-size: 26px;
   color: #181818;
   margin-top: 59px;
 }
 
-.transfer__card__block3__item3 {
+.transfer3__card__block3__item3 {
   margin-top: 7px;
   margin-left: 28px;
   font-family: Roboto-Light;
