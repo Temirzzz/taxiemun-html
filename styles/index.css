@@ -859,6 +859,9 @@ input[type="radio"] {
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 /* --------------- reviews-block ---------------- */
@@ -943,6 +946,7 @@ input[type="radio"] {
 .cityes-block {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .cityes-block__ul1,
@@ -950,8 +954,8 @@ input[type="radio"] {
 .cityes-block__ul3,
 .cityes-block__ul4 {
   width: 270px;
-  margin-right: 30px;
 }
+
 .cityes-block__ul4 {
   margin: 0;
 }

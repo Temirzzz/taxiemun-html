@@ -96,8 +96,9 @@
     </div>
     
     <div class="container-fluid">        
-      <div class="header-menu">
+      
           <div class="container">
+            <div class="header-menu">
               <div class="header__logo">
               <a href="#"><img class="logo" src="../img/logo.png" alt=""></a>  
               </div>   
@@ -278,7 +279,7 @@
         <h3 class="advantages__h3">Наши преимущества</h3>
         <div class="short__line_spec"></div>
         <div class="advantages">        
-          <div class="advantages__block">
+          <div class="advantages__block advantages__block_first">
             <img class="advantages__img" src="../img/cabman.png" alt="">
             <p class="advantages__item1">Водители профессионалы</p>
             <p class="advantages__item2">Профессиональные водители <br> на автомобилях в идеальном     техническом состоянии</p>
@@ -310,7 +311,7 @@
         <div class="car-park">
           <button class="car-park__left-btn"><img src="../img/white-left-arrow.png" alt=""></button>
           <button class="car-park__right-btn"><img src="../img/white-right-arrow.png" alt=""></button>
-          <div class="car-park__card">
+          <div class="car-park__card car-park__card_first">
             <div class="car-park__car__img">
               <img src="../img/toyota.png" alt="">
             </div>
@@ -319,12 +320,13 @@
               <span class="car-park__heading__span2"><img src="../img/man.png" alt="">4</span>
               <span class="car-park__heading__span3"><img src="../img/luggage.png" alt="">3</span>
             </div>
+            <div class="car-park__underline hidden"></div>
             <p class="car-park__item">
               Роскошный седан предоставляет достаточное пространство для ног и головы и может вмещать до четырех взрослых пассажиров. Багаж роскошного седана вмещает четыре стандартных контрольных чемодана плюс две ручных сумки. 
             </p>
           </div>
 
-          <div class="car-park__card">
+          <div class="car-park__card car-park__card_second">
             <div class="car-park__car__img">
               <img src="../img/mercedes.png" alt="">
             </div>
@@ -350,18 +352,20 @@
               Наш роскошный МИНИВЕН предоставляет достаточное пространство, не жертвуя стилем. Шесть взрослых мест, плюс 6 стандартных контрольных чемодана. Предназначен для переездов с личным водителем, экскурсий малыми группами. 
             </p>
           </div>
-          <button class="order__btn">Заказать трансфер</button>
         </div>
+        <button class="order__btn">Заказать трансфер</button>
       </div>
     </section>
 
     <section>
       <div class="container-fluid container-fluid_bg">
-        <h3 class="advantages__h3">Отзывы наших клиентов</h3>
+        <h3 class="advantages__h3 advantages__h3_width">Отзывы наших клиентов</h3>
         <div class="short__line_spec"></div>
         <div class="container">
           <div class="reviews">
-            <div class="reviews-block">
+            <button class="reviews-left__btn hidden"><img src="../img/white-arrow-down.png" alt=""></button>
+          <button class="reviews-right__btn hidden"><img src="../img/white-arrow-down.png" alt=""></button>
+            <div class="reviews-block reviews-block_first">
               <div class="reviews-block__card">
                 <div class="reviews-block__card__img__wrapper">
                   <img class="reviews-block__card__img" src="../img/ava3.png" alt="">
@@ -381,7 +385,7 @@
               </div>  
             </div>
   
-            <div class="reviews-block">
+            <div class="reviews-block reviews-block_second">
               <div class="reviews-block__card">
                 <div class="reviews-block__card__img__wrapper">
                   <img class="reviews-block__card__img" src="../img/ava2.png" alt="">
@@ -419,9 +423,9 @@
                   </p>  
                 </div>                            
               </div>  
-            </div>      
-            <button class="order__btn">Все отзывы</button>
-          </div>                  
+            </div>    
+          </div>    
+          <button class="order__btn order__btn_spec">Все отзывы</button>              
         </div>
       </div>
     </section>
@@ -431,6 +435,8 @@
         <h3 class="advantages__h3 advantages__h3_size">Мы работаем в большинстве городов Израиля</h3>
         <div class="short__line_spec"></div>
         <div class="cityes-block">
+          <button class="cityes-left__btn hidden"><img src="../img/white-arrow-down.png" alt=""></button>
+          <button class="cityes-right__btn hidden"><img src="../img/white-arrow-down.png" alt=""></button>
           <ul class="cityes-block__ul1">
             <li><a href="#"><img src="../img/blue-mark.png" alt="">Акко</a></li>        
             <li><a href="#"><img src="../img/blue-mark.png" alt="">Аррад</a></li>        
@@ -478,9 +484,9 @@
             <li><a href="#"><img src="../img/blue-mark.png" alt="">Тират-Кармель</a></li>          
             <li><a href="#"><img src="../img/blue-mark.png" alt="">Хадера</a></li>          
             <li><a href="#"><img src="../img/blue-mark.png" alt="">Хайфа</a></li>
-          </ul>
-          <p class="cityes__p"><a href="#">Показать все города</a></p>
+          </ul>   
         </div>
+        <p class="cityes__p"><a href="#">Показать все города</a></p>
       </div>
     </section>
 
@@ -548,44 +554,52 @@
             <div class="mobile-app__info-block">
               <p class="mobile-app__info-block__item1">Наше мобильное приложение</p>
               <p class="mobile-app__info-block__item2">Теперь Вы можете заказать такси в Израиле, без звонка диспетчеру.
-
                 Наше приложение само определит ваше местоположение, вы можете выбрать из списка желаемый автомобиль, только наше такси предоставляет вам возможность оформить предварительный заказ. За каждый успешно выполненный заказ с мобильного приложения Easy Taxi вам начисляются бонусы.</p>
               <img class="mobile-app__info-block__img1" src="../img/Google-Play.png" alt="">
               <img class="mobile-app__info-block__img2" src="../img/App-Store.png" alt="">
             </div>
-            <div class="mobile-app__social">
-              <p class="mobile-app__social__item">Поделится в социальных сетях:</p>
-              <div class="mobile-app__social__block">
-                <img src="../img/Facebook.svg" alt="">
-                <img src="../img/Vimeo.svg" alt="">
-                <img src="../img/LinkedIn.svg" alt="">
-                <img src="../img/Google.svg" alt="">
-                <img src="../img/Vkontakte.svg" alt="">
-                <img src="../img/Odnoklassniki.svg" alt="">
-              </div>
-            </div>
-            
           </div>
         </div>
-        <button class="up__btn"><img src="../img/white-arrow-down.png" alt=""></button>
-        <div class="message__send"><img src="../img/chat.png" alt=""></div>
-        <div class="footer__line"></div>
       </div>      
     </section>
 
-    <div class="container-fluid footer_bg">      
+    <section>
+      <div class="container-fluid">        
+        <div class="container">                
+            <div class="mobile-app__social">
+              <p class="mobile-app__social__item">Поделится в социальных сетях:</p>
+              <div class="mobile-app__social__block">
+                <a href="#"><img src="../img/Facebook.svg" alt=""></a> 
+                <a href="#"><img src="../img/Vimeo.svg" alt=""></a> 
+                <a href="#"><img src="../img/LinkedIn.svg" alt=""></a> 
+                <a href="#"><img src="../img/Google.svg" alt=""></a> 
+                <a href="#"><img src="../img/Vkontakte.svg" alt=""></a> 
+                <a href="#"><img src="../img/Odnoklassniki.svg" alt=""></a> 
+              </div>
+            </div>                 
+          </div> 
+          <button class="up__btn"><img src="../img/white-arrow-down.png" alt=""></button>
+          <div class="message__send"><img src="../img/chat.png" alt=""></div>
+          <div class="footer__line"></div>   
+      </div>     
+    </section>
+
+    <div class="container-fluid footer_bg">
       <div class="container">
         <footer class="footer">
           <div class="footer__logo-block">
-            <img
-            class="footer-logo__block__logo"
-            src="../img/footer-logo.png"
-            alt=""
+            <a href="#">
+              <img
+              class="footer-logo__block__logo"
+              src="../img/footer-logo.png"
+              alt=""
             />
+          </a>
             <p class="footer-logo__block__item">
-            © 2020 Emun Taxi. Все права защищены.
+              © 2020 Emun Taxi. Все права защищены.
             </p>
           </div>
+
           <div class="footer__block1">
             <p class="footer__block__heading">Компания:</p>
             <p class="footer__block__item">О нас</p>
@@ -600,7 +614,7 @@
             <p class="footer__block__item">VIP сопровождение в аэропорту</p>
             <p class="footer__block__item">Услуги персонального водителя</p>
             <p class="footer__block__item">
-            Индивидуальные экскурсии по Израилю
+              Индивидуальные экскурсии по Израилю
             </p>
             <p class="footer__block__item">Услуги срочного курьера</p>
             <p class="footer__block__item">Медицинское сопровождение</p>
@@ -613,17 +627,106 @@
             <p class="footer__block__item">Файлы Coockie</p>
           </div>
           <div class="footer__pay">
-            <p class="footer__block__heading footer__block__heading_exep">Наше приложение:</p>
+            <p class="footer__block__heading footer__block__heading_exep">
+              Наше приложение:
+            </p>
             <img class="footer__img1" src="../img/Google-Play.png" alt="" />
             <img class="footer__img2" src="../img/App-Store.png" alt="" />
-            <p class="footer__block__heading footer__block__heading_exep">Мы принимаем:</p>
+            <p class="footer__block__heading footer__block__heading_exep">
+              Мы принимаем:
+            </p>
             <img class="footer__img3" src="../img/Visa.png" alt="" />
             <img class="footer__img4" src="../img/PayPal.png" alt="" />
             <img class="footer__img5" src="../img/Cash.png" alt="" />
           </div>
-        </div>
-      </footer>
-  </div>
-    
+          <!-- ---------------- footer-hidden-menu ---------------- -->
+          <div class="footer__hidden__menu hidden">
+            <ul class="menu-nav__ul__footer">
+              <li class="menu-nav__ul__li1 li1">
+                <a href="#">Компания:</a>
+                <ul class="footer__dropdown">
+                  <li><a href="#">Трансфер в аэропорт</a></li>
+                  <li><a href="#">Обычная поездка</a></li>
+                  <li><a href="#">Личный водитель</a></li>
+                  <li><a href="#">Экскурсии по израилю</a></li>
+                  <li><a href="#">Курьер</a></li>
+                </ul>
+                <img
+                  class="img__arrow_gold1"
+                  src="../img/arrow-down-gold.png"
+                  alt=""
+                />
+              </li>
+
+              <li class="menu-nav__ul__li1 li1">
+                <a href="#">Услуги</a>
+                <ul class="footer__dropdown">
+                  <li><a href="#">Трансфер в аэропорт</a></li>
+                  <li><a href="#">Обычная поездка</a></li>
+                  <li><a href="#">Личный водитель</a></li>
+                  <li><a href="#">Экскурсии по израилю</a></li>
+                  <li><a href="#">Курьер</a></li>
+                </ul>
+                <img
+                  class="img__arrow_gold1"
+                  src="../img/arrow-down-gold.png"
+                  alt=""
+                />
+              </li>
+
+              <li class="menu-nav__ul__li1 li1">
+                <a href="#">Услуги</a>
+                <ul class="footer__dropdown">
+                  <li><a href="#">Трансфер в аэропорт</a></li>
+                  <li><a href="#">Обычная поездка</a></li>
+                  <li><a href="#">Личный водитель</a></li>
+                  <li><a href="#">Экскурсии по израилю</a></li>
+                  <li><a href="#">Курьер</a></li>
+                </ul>
+                <img
+                  class="img__arrow_gold1"
+                  src="../img/arrow-down-gold.png"
+                  alt=""
+                />
+              </li>
+
+              <li class="menu-nav__ul__li8">
+                <a href="#">Личный кабинет</a>
+
+                <ul class="footer__dropdown">
+                  <li><a href="#">Sub-1</a></li>
+                  <li><a href="#">Sub-2</a></li>
+                  <li><a href="#">Sub-3</a></li>
+                </ul>
+                <img
+                  class="img__arrow_gold2"
+                  src="../img/arrow-down-gold.png"
+                  alt=""
+                />
+              </li>
+
+              <li class="menu-nav__ul__li8">
+                <a href="#">Настройки</a>
+
+                <ul class="footer__dropdown">
+                  <li><a href="#">Sub-1</a></li>
+                  <li><a href="#">Sub-2</a></li>
+                  <li><a href="#">Sub-3</a></li>
+                </ul>
+                <img
+                  class="img__arrow_gold3"
+                  src="../img/arrow-down-gold.png"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+          <!-- ------------------------------------------- -->
+          <p class="footer-logo__block__item_hidden hidden">
+            © 2020 Emun Taxi. Все права защищены.
+          </p>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>

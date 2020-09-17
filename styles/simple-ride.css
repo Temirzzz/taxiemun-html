@@ -446,6 +446,7 @@ ul {
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .simple-ride__block__item2 {
