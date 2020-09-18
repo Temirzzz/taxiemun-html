@@ -421,10 +421,16 @@ ul {
 .about-list__wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-list__img {
   margin-bottom: 50px;
+}
+
+.about-list__img img {
+  width: 100%;
+  height: auto;
 }
 
 .about-list__item {
