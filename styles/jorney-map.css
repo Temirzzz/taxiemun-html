@@ -1,0 +1,199 @@
+.jorney__main__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 30px 41px;
+}
+
+.jorney__map {
+  max-width: 1170px;
+  min-height: 335px;
+  background: #ffffff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.jorney__input__wrapper1,
+.jorney__input__wrapper2,
+.jorney__card__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jorney__input__heading {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #181818;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.jorney__input {
+  position: relative;
+  margin-right: 20px;
+}
+
+.jorney__input input {
+  width: 280px;
+  height: 46px;
+  position: relative;
+  background: #f0f8ff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding-left: 47px;
+  font-family: Roboto-Light;
+  font-size: 14px;
+  line-height: 20px;
+  color: #181818;
+  opacity: 0.7;
+}
+
+.jorney__img,
+.jorney__arrow__img {
+  position: absolute;
+  z-index: 999;
+}
+
+.jorney__img {
+  top: 13px;
+  left: 12px;
+}
+
+.jorney__arrow__img {
+  width: 10px;
+  height: 4px;
+  top: 22px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.jorney__input_short {
+  position: relative;
+  margin-right: 20px;
+}
+
+.jorney__input_short input {
+  width: 180px;
+  height: 46px;
+  position: relative;
+  background: #f0f8ff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding-left: 40px;
+  font-family: Roboto-Light;
+  font-size: 14px;
+  line-height: 20px;
+  color: #181818;
+  opacity: 0.7;
+}
+
+.jorney__arrow__img_up,
+.jorney__arrow__img_down {
+  position: absolute;
+  width: 10px;
+  height: 4px;
+  cursor: pointer;
+}
+
+.jorney__arrow__img_up {
+  top: 14px;
+  right: 13px;
+}
+
+.jorney__arrow__img_down {
+  bottom: 14px;
+  right: 13px;
+}
+
+.jorney__input__wrapper3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 580px;
+}
+
+.jorney__input__wrapper3 button {
+  width: 180px;
+  height: 50px;
+  background: #f6a409;
+  box-shadow: 0px 2px 4px rgba(246, 164, 9, 0.4);
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 22px;
+  margin-top: 42px;
+}
+
+.jorney__map__wrapper {
+  position: relative;
+  margin-top: 45px;
+  margin-left: 82px;
+  display: flex;
+}
+
+.jorney__map__card__left-arrow,
+.jorney__map__card__right-arrow {
+  position: absolute;
+  bottom: 85px;
+  cursor: pointer;
+}
+
+.jorney__map__card__right-arrow {
+  top: 100px;
+  right: -50px;
+  cursor: pointer;
+}
+
+.jorney__map__card__left-arrow {
+  top: 100px;
+  left: -50px;
+  cursor: pointer;
+}
+
+.jorney__map__card {
+  width: 180px;
+}
+
+.jorney__map__card img {
+  margin-bottom: 12px;
+}
+
+.jorney__map__card__item1 {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #181818;
+  margin-bottom: 2px;
+}
+
+.jorney__map__card__item2 {
+  font-family: Roboto-Light;
+  font-size: 13px;
+  line-height: 18px;
+  color: #181818;
+  margin-bottom: 7px;
+}
+
+.jorney__map__card__item3 {
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f6a409;
+  cursor: pointer;
+}
+
+.jorney__map__card__item3 a {
+  text-decoration: none;
+}
+
+.jorney__map__card_exep {
+  margin-right: 20px;
+}

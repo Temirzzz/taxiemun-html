@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- <link rel="stylesheet" href="../styles/investors.css" /> -->
-        <link rel="stylesheet" href="../styles/investors.css" />
+        <link rel="stylesheet" href="../styles/style.css" />
         <title>Document</title>
       </head>
       <body>
@@ -131,18 +131,20 @@
        
         
         <section>
-            <div class="container">        
-                <p class="investors__heading">О нас</p>
+            <div class="container">   
+                <p class="investors__heading">Для инвесторов</p>
                 <div class="short__line short__line_margin"></div>   
-                <p class="investors__item">
-                    Компания «Эмун Такси» - это решение всех ваших транспортных проблем во время путешествия по Израилю. Вот уже с 2002 года мы работаем на внутреннем израильском рынке транспортных услуг и, в числе прочих, обслуживаем туристов, пребывающих из стран СНГ.
-                    Наше приоритетное направление деятельности - организация и осуществление индивидуальных трансферов в Израиле, основу которой составляет стремление заслужить безусловное доверие со стороны наших клиентов. Этот принцип нашел отражение и в названии нашей компании. «Эмун», что в переводе с иврита как раз и означает «Доверие».
-                </p>
-                <div class="investors__count">
-                    <p class="investors__count__item">
-                        Общее количество обработанных заказов <span>12 987 697</span> 
-                    </p>
-                </div>
+                <div class="investors__wrapper">
+                  <p class="investors__item">
+                      Компания «Эмун Такси» - это решение всех ваших транспортных проблем во время путешествия по Израилю. Вот уже с 2002 года мы работаем на внутреннем израильском рынке транспортных услуг и, в числе прочих, обслуживаем туристов, пребывающих из стран СНГ.
+                      Наше приоритетное направление деятельности - организация и осуществление индивидуальных трансферов в Израиле, основу которой составляет стремление заслужить безусловное доверие со стороны наших клиентов. Этот принцип нашел отражение и в названии нашей компании. «Эмун», что в переводе с иврита как раз и означает «Доверие».
+                  </p>
+                  <div class="investors__count">
+                      <p class="investors__count__item">
+                          Общее количество обработанных заказов <span>12 987 697</span> 
+                      </p>
+                  </div>
+               </div>     
             </div>            
         </section>
 
@@ -150,7 +152,7 @@
             <div class="container">
                 <div class="investors-list">
                     <div class="investors-list__wrapper">
-                        <div>
+                        <div class="investors-list__wrapper__wrap1">
                             <p class="investors-list__header1">Наш перечень услуг включает следующее:</p>
                             <div class="investors-list__block1">
                                 <p class="investors-list__item"><span class="point"></span>Встреча в аэропорту</p>
@@ -162,7 +164,7 @@
                                 <p class="investors-list__item"><span class="point"></span>Медицинское сопровождение</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="investors-list__wrapper__wrap2">
                             <div class="investors-list__block2">
                                 <p class="investors-list__header2">Седанами (такси до 4-мест)</p>
                                 <p class="investors-list__item"><span class="point"></span>Минивэнами (до 6-мест)</p>
@@ -182,27 +184,28 @@
                 <div class="short__line"></div>   
                 <div class="investors__input__block">
                     <div class="investors__input__block1">
-                        <p class="investors__heading_small">Имя<span class="orange">*</span>:</p>
+                        <p class="investors__heading_small">Имя<span class="star-orange">*</span>:</p>
                         <input type="text" class="investors__input">
-                        <p class="investors__heading_small">Телефон<span class="orange">*</span>:</p>
+                        <p class="investors__heading_small">Телефон<span class="star-orange">*</span>:</p>
                         <input type="text" class="investors__input">
-                        <p class="investors__heading_small">E-mail<span class="orange">*</span>:</p>
+                        <p class="investors__heading_small">E-mail<span class="star-orange">*</span>:</p>
                         <input type="text" class="investors__input">
                     </div>
                     <div class="investors__input__block2">
                         <p class="investors__heading_small">Коментарий:</p>                  
                         <textarea type="text" class="investors__textarea"></textarea>
                     </div>
+                    <div class="investors__captcha__block">                                        
+                      <div class="investors__captcha">
+                          <input type="checkbox">
+                          <p>I’m not a robot</p>
+                          <img class="investors__captcha__img" src="../img/CAPTCHA.png" alt="">
+                          <img class="investors__captcha__text" src="../img/captchatext.png" alt="">
+                      </div>       
+                      <button class="investors__btn">Отправить</button>  
+                  </div>  
                 </div>
-                <div class="investors__captcha__block">                                        
-                    <div class="investors__captcha">
-                        <input type="checkbox">
-                        <p>I’m not a robot</p>
-                        <img class="investors__captcha__img" src="../img/CAPTCHA.png" alt="">
-                        <img class="investors__captcha__text" src="../img/captchatext.png" alt="">
-                    </div>       
-                    <button class="investors__btn">Отправить</button>  
-                </div>  
+                
             </div>
         </section>
         

@@ -377,20 +377,20 @@ ul {
   color: #818181;
 }
 
-/* ------------ transfer-map-section ------------ */
+/* ------------ excursion ------------ */
 
-.transfer__way__img {
+.excursion__way__img {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.transfer-map {
+.excursion-map {
   display: flex;
   flex-wrap: wrap;
 }
 
-.transfer-map__block1 {
+.excursion-map__block1 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -403,18 +403,18 @@ ul {
   margin-right: 30px;
 }
 
-.transfer-map__wrapper {
+.excursion-map__wrapper {
   padding: 25px 26px 41px 24px;
 }
 
-.transfer__heading {
+.excursion__heading {
   font-family: Roboto-Bold;
   font-size: 36px;
   line-height: 36px;
   color: #181818;
 }
 
-.transfer__short__line {
+.excursion__short__line {
   margin-top: 16px;
   margin-bottom: 33px;
   width: 100px;
@@ -422,14 +422,14 @@ ul {
   border: 1.5px solid #f6a409;
 }
 
-.transfer__map-section__underline {
+.excursion__map-section__underline {
   margin: 25px auto 0;
   width: 354px;
   background: #cbe6ff;
   border: 1px solid #cbe6ff;
 }
 
-.transfer__map-section__block__heading {
+.excursion__map-section__block__heading {
   margin-bottom: 10px;
   font-family: Roboto-Bold;
   font-size: 16px;
@@ -438,11 +438,11 @@ ul {
   margin-top: 16px;
 }
 
-.transfer__exept {
+.excursion__exept {
   margin-top: 0;
 }
 
-.transfer__map-section__block__heading_big {
+.excursion__map-section__block__heading_big {
   font-family: Roboto-Bold;
   font-size: 18px;
   line-height: 24px;
@@ -451,7 +451,7 @@ ul {
   margin-top: 25px;
 }
 
-.transfer__map-section__button {
+.excursion__map-section__button {
   position: absolute;
   top: 181px;
   right: 24px;
@@ -464,29 +464,29 @@ ul {
   cursor: pointer;
 }
 
-.transfer__map-section__button1 {
+.excursion__map-section__button1 {
   width: 14.23px;
 }
 
-.transfer__map-section__button2 {
+.excursion__map-section__button2 {
   width: 14.23px;
   padding-bottom: 5px;
 }
 
-.transfer__map-section__block__input1__wrapper {
+.excursion__map-section__block__input1__wrapper {
   display: inline-block;
   width: 150px;
   position: relative;
 }
 
-.transfer__map-section__block__img {
+.excursion__map-section__block__img {
   position: absolute;
   top: 14px;
   left: 12px;
   cursor: pointer;
 }
 
-.transfer__map-section__block__input {
+.excursion__map-section__block__input {
   background: #f0f8ff;
   border: 1px solid #cbe6ff;
   border-radius: 2px;
@@ -494,18 +494,17 @@ ul {
   line-height: 20px;
   font-size: 14px;
   font-family: Roboto-Light;
-  /* opacity: 0.7; */
   height: 2.87rem;
   padding-left: 44px;
   width: 11.25rem;
 }
 
-.transfer__map-section__block__input_middle {
+.excursion__map-section__block__input_middle {
   width: 20rem;
   height: 2.87rem;
 }
 
-.transfer__map-section__block__arrow1 {
+.excursion__map-section__block__arrow1 {
   position: absolute;
   top: 14px;
   right: 13px;
@@ -514,7 +513,7 @@ ul {
   cursor: pointer;
 }
 
-.transfer__map-section__block__arrow2 {
+.excursion__map-section__block__arrow2 {
   position: absolute;
   top: 28px;
   right: 13px;
@@ -523,7 +522,7 @@ ul {
   cursor: pointer;
 }
 
-.transfer__map-section__block__arrow2_big {
+.excursion__map-section__block__arrow2_big {
   position: absolute;
   top: 22px;
   right: -160px;
@@ -532,25 +531,25 @@ ul {
   cursor: pointer;
 }
 
-.transfer__small {
+.excursion__small {
   width: 9.37rem;
 }
 
-.transfer__input-block1 {
+.excursion__input-block1 {
   display: flex;
   flex-direction: column;
   margin-top: 33px;
   margin-bottom: 15px;
 }
 
-.transfer__input-block2 {
+.excursion__input-block2 {
   height: 30px;
   float: left;
   margin-top: 35px;
 }
 
-.transfer__label1,
-.transfer__label2 {
+.excursion__label1,
+.excursion__label2 {
   position: relative;
   cursor: pointer;
   position: relative;
@@ -561,8 +560,8 @@ input[type="radio"] {
   display: none;
 }
 
-.transfer__label1:before,
-.transfer__label2:before {
+.excursion__label1:before,
+.excursion__label2:before {
   content: "";
   display: inline-block;
   height: 30px;
@@ -575,27 +574,27 @@ input[type="radio"] {
   position: absolute;
 }
 
-.transfer__label2:before {
+.excursion__label2:before {
   height: 30px;
   width: 58px;
   border-radius: 15px;
 }
 
-.transfer__input__check1:checked + .transfer__label1:before,
-.transfer__input__check2:checked + .transfer__label2:before {
+.excursion__input__check1:checked + .excursion__label1:before,
+.excursion__input__check2:checked + .excursion__label2:before {
   content: url("/img/circle.png");
   color: #004e97;
   text-align: center;
   line-height: 33px;
 }
 
-.transfer__input__check2:checked + .transfer__label2:before {
+.excursion__input__check2:checked + .excursion__label2:before {
   text-align: left;
   padding-left: 10px;
 }
 
-.transfer__input-label__span1,
-.transfer__input-label__span2 {
+.excursion__input-label__span1,
+.excursion__input-label__span2 {
   margin-top: 5px;
   margin-left: 47px;
   font-family: Roboto-Bold;
@@ -605,40 +604,40 @@ input[type="radio"] {
   margin-bottom: 14px;
 }
 
-.transfer__input-label__span1 {
+.excursion__input-label__span1 {
   margin-right: 30px;
 }
 
-.transfer__input-label__span3,
-.transfer__input-label__span4 {
+.excursion__input-label__span3,
+.excursion__input-label__span4 {
   margin-left: 70px;
   line-height: 30px;
 }
 
-.transfer__map-section__block__heading_soft {
+.excursion__map-section__block__heading_soft {
   opacity: 0.6;
 }
 
-.transfer__map-section__input-wrapper {
+.excursion__map-section__input-wrapper {
   width: 20rem;
   margin-right: 20px;
 }
 
-.transfer__map-section__main-wrapper {
+.excursion__map-section__main-wrapper {
   display: flex;
 }
 
-.transfer__mao-section__map {
+.excursion__map-section__map {
   margin-top: 33px;
 }
 
-/* ----------- transfer-map__block2 ----------- */
+/* ----------- excursion-map-block2 ----------- */
 
-.transfer-map__block2 {
+.excursion-map__block2 {
   width: 770px;
 }
 
-.transfer__card {
+.excursion__card {
   display: flex;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -647,12 +646,12 @@ input[type="radio"] {
   height: 170px;
 }
 
-.transfer__card__block1 {
+.excursion__card__block1 {
   position: relative;
   padding: 9px;
 }
 
-.transfer__label {
+.excursion__label {
   bottom: 26px;
   right: 20px;
   position: absolute;
@@ -667,11 +666,11 @@ input[type="radio"] {
   color: #ffffff;
 }
 
-.transfer__card__block2 {
+.excursion__card__block2 {
   margin: 31px 0 0 19px;
 }
 
-.transfer__card__block2__item1 {
+.excursion__card__block2__item1 {
   font-family: Roboto-Bold;
   font-size: 18px;
   line-height: 24px;
@@ -681,14 +680,14 @@ input[type="radio"] {
   margin-right: 63px;
 }
 
-.transfer__card__block2__item1 span {
+.excursion__card__block2__item1 span {
   font-family: Roboto-Light;
   font-size: 14px;
   line-height: 20px;
   color: #181818;
 }
 
-.transfer__card__block2__item2 {
+.excursion__card__block2__item2 {
   height: 20px;
   font-family: Roboto-Regular;
   font-size: 14px;
@@ -696,7 +695,7 @@ input[type="radio"] {
   margin-bottom: 13px;
 }
 
-.transfer__card__block2__item4 {
+.excursion__card__block2__item4 {
   width: 295px;
   font-family: Roboto-Light;
   font-size: 14px;
@@ -705,30 +704,30 @@ input[type="radio"] {
   margin-bottom: 17px;
 }
 
-.transfer__card__block2__item3 {
+.excursion__card__block2__item3 {
   height: 20px;
   font-family: Roboto-Regular;
   font-size: 14px;
   color: #181818;
 }
 
-.transfer__card__block2__item2 img,
-.transfer__card__block2__item3 img {
+.excursion__card__block2__item2 img,
+.excursion__card__block2__item3 img {
   margin-right: 11.7px;
 }
 
-.transfer__vertical__line {
+.excursion__vertical__line {
   height: 156px;
   border: 0.5px solid #cbe6ff;
   transform: rotate(180deg);
   margin: auto 0;
 }
 
-.transfer__item__wrapper {
+.excursion__item__wrapper {
   display: flex;
 }
 
-.transfer__card__block3__item1 {
+.excursion__card__block3__item1 {
   font-family: Roboto-Bold;
   font-size: 16px;
   color: #535353;
@@ -738,14 +737,14 @@ input[type="radio"] {
   margin-right: 15px;
 }
 
-.transfer__card__block3__item2 {
+.excursion__card__block3__item2 {
   font-family: Roboto-Bold;
   font-size: 26px;
   color: #181818;
   margin-top: 34px;
 }
 
-.transfer__card__block3__item3 {
+.excursion__card__block3__item3 {
   width: 104px;
   margin-top: 3px;
   margin-left: 48px;
@@ -755,7 +754,7 @@ input[type="radio"] {
   color: #181818;
 }
 
-.transfer__card__block3 button {
+.excursion__card__block3 button {
   margin-top: 17px;
   margin-left: 25px;
   width: 150px;
@@ -770,6 +769,26 @@ input[type="radio"] {
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+}
+
+.excursion__button__block {
+  margin-top: 27px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.excursion__button__block button {
+  width: 180px;
+  height: 50px;
+  background: #ffffff;
+  border: 1.5px solid #f6a409;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #f6a409;
 }
 
 /* -------- mobile-app__social -------- */

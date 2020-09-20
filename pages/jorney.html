@@ -133,7 +133,7 @@
 <section>
     <div class="container">        
         <p class="jorney__heading_big">Экскурсии по Израилю </p>
-        <div class="jorney__line"></div>      
+        <div class="short__line"></div>      
     </div>
 </section>
 
@@ -176,7 +176,7 @@
     <div class="container-fluid container-fluid_blue">
         <div class="container">
             <div class="jorney__block">
-                <p class="jorney__heading block__heading_margin">Стоимость индивидуальных туров</p>
+                <p class="jorney__heading">Стоимость индивидуальных туров</p>
                 <p class="jorney__block__item"> 
                     Многих интересует вопрос: сколько стоят наши услуги? Стоимость зависит от предполагаемого маршрута, дальности поездки и количества туристов.<span>
                     Сейчас мы проводим акцию: индивидуальная экскурсия на роскошном автомобиле (рассчитанном на 4–х человек) с личным водителем, прекрасно владеющим русским языком, всего за 350 долларов.
@@ -198,7 +198,7 @@
             <button class="jorney__slider__left-btn"><img src="../img/white-left-arrow.png" alt=""></button>
             <button class="jorney__slider__right-btn"><img src="../img/white-right-arrow.png" alt=""></button>
 
-            <div class="jorney__slider__card">
+            <div class="jorney__slider__card jorney__slider__card1">
                 <div class="jorney__slider__img">
                 <img src="../img/women.png" alt="">
                 </div>       
@@ -210,7 +210,7 @@
                 <button class="jorney__slider__button">Заказать</button>
             </div>
     
-            <div class="jorney__slider__card">
+            <div class="jorney__slider__card jorney__slider__card2">
                 <div class="jorney__slider__img">
                 <img src="../img/place.png" alt="">
                 </div>       
@@ -221,7 +221,8 @@
                 </p>
                 <button class="jorney__slider__button">Заказать</button>
             </div>
-            <div class="jorney__slider__card jorney__slider__card_exep">
+            <div class="jorney__slider__card
+            jorney__slider__card3 jorney__slider__card_exep">
                 <div class="jorney__slider__img">
                 <img src="../img/folks.png" alt="">
                 </div>       
@@ -240,91 +241,114 @@
     <div class="container">
         <p class="jorney__heading">Узнать стоимость услуги</p>
         <div class="short__line"></div>
-        <div class="jorney2__map-block">              
-            <div class="jorney2__map-block__wrapper">
-                <div class="jorney2__map-section__first-wrapper">
-                    <div class="jorney__wrap">
-                        <div class="jorney__wrap1">
-                            <p class="jorney2__map-section__block__heading">Откуда:</p>
-                            <div class="jorney2__map-section__block__input1__wrapper">                
-                                <img class="jorney2__map-section__block__img" src="../img/locaton.png" alt="">
-                                <input class="jorney2__map-section__block__input jorney2__map-section__block__input_long" type="text" placeholder="Напишите адрес отеля, дома...">
-                            </div>
-                        </div>
-                        
-                        <div class="jorney__wrap2">
-                            <p class="jorney2__map-section__block__heading">Экскурсия:</p>
-                            <div class="jorney2__map-section__block__input1__wrapper">                
-                                <img class="jorney2__map-section__block__img" src="../img/mini-map.png" alt="">
-                                <input class="jorney2__map-section__block__input jorney2__map-section__block__input_long" type="text" placeholder="Выберите экскурсию">
-                                <img class="jorney__map__arrow" src="../img/arrow-down-gold.png" alt="">
-                            </div>
-                        </div>                                                 
+        <div class="jorney__map">
+          <!-- ----------------------------------- -->
+          <div class="jorney__main__wrapper">
+              <!-- ----------------------------------- -->
+            <div class="jorney__main__input__wrapper">
+                <div class="jorney__input__wrapper1">
+                    <div class="jorney__container">
+                    <p class="jorney__input__heading">Откуда:</p>
+                    <div class="jorney__input">
+                        <img class="jorney__logo__img" src="../img/locaton.png" alt="" />
+                        <input
+                        type="text"
+                        placeholder="Напишите адрес отеля, дома..."
+                        />
+                    </div>
+                    </div>
+    
+                    <div class="jorney__container">
+                    <p class="jorney__input__heading">Экскурсия:</p>
+                    <div class="jorney__input">
+                        <img class="jorney__logo__img" src="../img/mini-map.png" alt="" />
+                        <input type="text" placeholder="Выберите экскурсию" />
+                        <img
+                        class="jorney__arrow__img"
+                        src="../img/arrow-down-gold.png"
+                        alt=""
+                        />
+                    </div>
                     </div>
                 </div>
-
-                <div class="jorney2__pass__wrapper">
-                    <div>
-                        <div class="jorney2__map-section__second-wrapper">
-                            <p class="jorney2__map-section__block__heading">Дата:</p>
-                            <div class="jorney2__map-section__block__input1__wrapper">
-                                <img class="jorney2__map-section__block__img" src="../img/calendar.png" alt="">
-                                <input class="jorney2__map-section__block__input small" type="text" placeholder="05.08.2020">
-                            </div>
-                        </div>    
-                    </div>     
-                    <div>                        
-                        <div class="jorney2__map-section__sixth-wrapper">
-                            <p class="jorney2__map-section__block__heading">Время:</p>
-                            <div class="jorney2__map-section__block__input1__wrapper">
-                                <img class="jorney2__map-section__block__img" src="../img/clock.png" alt="">
-                                <input class="jorney2__map-section__block__input" type="text" placeholder="12:44 AM">
-                            </div>                          
-                        </div>      
-        
-                        <div class="jorney2__map-section__fifth-wrapper">
-                            <p class="jorney2__map-section__block__heading">Промокод:</p>
-                            <div class="jorney2__map-section__block__input1__wrapper">
-                                <img class="jorney2__map-section__block__img jorney2__map-section__block__img_exep" src="../img/sales.png" alt="">
-                                <input class="jorney2__map-section__block__input" type="text" placeholder="ХХХХ-ХХХ_ХХХХ">
-                            </div>   
-                        </div>
+    
+                <div class="jorney__input__wrapper2">
+                    <div class="jorney__container">
+                    <p class="jorney__input__heading">Дата:</p>
+                    <div class="jorney__input_short jorney__input_short1">
+                        <img class="jorney__logo__img" src="../img/calendar.png" alt="" />
+                        <input type="text" placeholder="05.08.2020" />
                     </div>
-                                
-                    <div>
-                        <div class="jorney2__map-section__fourth-wrapper">
-                            <p class="jorney2__map-section__block__heading">Человек:</p>
-                            <div class="jorney2__map-section__block__input1__wrapper">
-                                <img class="jorney2__map-section__block__img" src="../img/man.png" alt="">
-                                <input class="jorney2__map-section__block__input small" type="text" placeholder="2">
-                                <img class="jorney2__map-section__block__arrow1" src="../img/arrow-up-gold.png" alt="">
-                                <img class="jorney2__map-section__block__arrow2" src="../img/arrow-down-gold.png" alt="">
-                            </div>     
-                        </div>                        
-                            <div class="jorney2__map-section__seventh-wrapper">
-                                <button class="jorney2__map-section__block__button">Подобрать</button> 
-                            </div>  
-                        </div>
-                    </div>                   
+                    </div>
+                    <div class="jorney__container">
+                    <p class="jorney__input__heading">Время:</p>
+                    <div class="jorney__input_short">
+                        <img class="jorney__logo__img" src="../img/clock.png" alt="" />
+                        <input type="text" placeholder="12:44 AM" />
+                    </div>
+                    </div>
+                    <div class="jorney__container">
+                    <p class="jorney__input__heading">Человек:</p>
+                    <div class="jorney__input_short jorney__input_short2">
+                        <img class="jorney__logo__img" src="../img/man.png" alt="" />
+                        <input type="text" placeholder="2" />
+                        <img
+                        class="jorney__arrow__img_up"
+                        src="../img/arrow-up-gold.png"
+                        alt=""
+                        />
+                        <img
+                        class="jorney__arrow__img_down"
+                        src="../img/arrow-down-gold.png"
+                        alt=""
+                        />
+                    </div>
+                    </div>
                 </div>
-
-                <div class="jorney2__map__card__wrapper">                            
-                    <div class="jorney2__map__card jorney2__map__card_exep">
-                        <img src="../img/city-foto.png" alt="">
-                        <p class="jorney2__map__card__item1">Иерусалим и Вифдеем</p>
-                        <p class="jorney2__map__card__item2">Храм Рождества Христова, молочный Гро...</p>
-                        <p class="jorney2__map__card__item3"><a href="#"></a>Выбрать</p>
+    
+                <div class="jorney__input__wrapper3">
+                    <div class="jorney__container">
+                    <p class="jorney__input__heading">Промокод:</p>
+                    <div class="jorney__input_short jorney__input_short3">
+                        <img class="jorney__logo__img" src="../img/sales.png" alt="" />
+                        <input type="text" placeholder="ХХХХ-ХХХ_ХХХХ" />
                     </div>
-                    <div class="jorney2__map__card">
-                        <img src="../img/city-foto.png" alt="">
-                        <p class="jorney2__map__card__item1">Иерусалим и Вифдеем</p>
-                        <p class="jorney2__map__card__item2">Храм Рождества Христова, молочный Гро...</p>
-                        <p class="jorney2__map__card__item3"><a href="#"></a>Выбрать</p>
                     </div>
-                    <img class="jorney2__map__card__left-arrow" src="../img/huge-left-arrow.png" alt="">
-                    <img class="jorney2__map__card__right-arrow" src="../img/huge-right-arrow.png" alt="">
+                    <button>Подобрать</button>
                 </div>
+                
+      
             </div>
+        <!-- ----------------------------------- -->
+            <div class="jorney__map__wrapper">
+                <div class="jorney__map__card jorney__map__card_first jorney__map__card_exep">
+                <img src="../img/city-foto.png" alt="" />
+                <p class="jorney__map__card__item1">Иерусалим и Вифдеем</p>
+                <p class="jorney__map__card__item2">
+                    Храм Рождества Христова, молочный Гро...
+                </p>
+                <p class="jorney__map__card__item3"><a href="#"></a>Выбрать</p>
+                </div>
+                <div class="jorney__map__card jorney__map__card_second">
+                <img src="../img/city-foto2.png" alt="" />
+                <p class="jorney__map__card__item1">Иерусалим и Вифдеем</p>
+                <p class="jorney__map__card__item2">
+                  Обзорный Старый город Иерусалима...
+                </p>
+                <p class="jorney__map__card__item3"><a href="#"></a>Выбрать</p>
+                </div>
+                <img
+                class="jorney__map__card__left-arrow"
+                src="../img/huge-left-arrow.png"
+                alt=""
+                />
+                <img
+                class="jorney__map__card__right-arrow"
+                src="../img/huge-right-arrow.png"
+                alt=""
+                />
+            </div>
+            <!-- ----------------------------------- -->
         </div>
     </div>        
 </section>

@@ -464,7 +464,7 @@ ul {
   cursor: pointer;
 }
 
-.vertical__line {
+.feedback__vertical__line {
   height: 194px;
   border: 0.5px solid #cbe6ff;
   transform: rotate(180deg);
