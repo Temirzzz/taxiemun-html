@@ -4048,7 +4048,7 @@ input[type="radio"] {
 }
 
 .pers__driver-info {
-  height: 270px;
+  min-height: 270px;
   background: #ffffff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -4070,6 +4070,12 @@ input[type="radio"] {
   font-size: 16px;
   line-height: 28px;
   color: #535353;
+}
+
+.pers__driver__exep {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  color: #181818;
 }
 
 .pers__driver-block__item2 {
@@ -4096,18 +4102,33 @@ input[type="radio"] {
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 /* --------------- pers-driver ---------------- */
 
 .pers__driver {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 60px;
 }
 
 .pers__driver__item {
+  max-width: 819px;
   margin-top: 30px;
   margin-left: 42px;
+}
+
+.pers__driver__wrapper {
+  max-width: 309px;
+  max-height: 340px;
+}
+
+.pers__driver__wrapper img {
+  width: 100%;
+  height: auto;
 }
 
 /* ----------- pers-price-block ------------ */
@@ -4140,13 +4161,15 @@ input[type="radio"] {
 .pers__car-park {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 
 .pers__car-park__card {
   width: 370px;
   margin-right: 30px;
+  margin-bottom: 20px;
 }
 
 .pers__car-park__card_exep {
@@ -4250,7 +4273,7 @@ input[type="radio"] {
 /* ----------- pers-map-block ------------ */
 
 .pers__map-block {
-  height: 340px;
+  min-height: 340px;
   background: #ffffff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -4351,6 +4374,13 @@ input[type="radio"] {
 .pers__img__bloc {
   float: right;
   margin-top: 46px;
+  max-width: 260px;
+  max-height: 228px;
+}
+
+.pers__img__bloc img {
+  width: 100%;
+  height: auto;
 }
 
 .pers__pass__wrapper {
@@ -4844,7 +4874,7 @@ input[type="radio"] {
 }
 
 .simple-ride {
-  height: 200px;
+  min-height: 200px;
   background: #ffffff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -4875,6 +4905,7 @@ input[type="radio"] {
   line-height: 18px;
   color: #ffffff;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .simple-ride__block__item2 {
@@ -4893,20 +4924,23 @@ input[type="radio"] {
 
 .simple-ride__drivers__block {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .simple-ride__drivers__block__img__wrapper {
-  width: 100%;
-  height: auto;
-  margin-right: 64px;
+  max-height: 500px;
+  max-width: 470px;
+  margin-right: 60px;
 }
 
 .simple-ride__drivers__block__img {
-  height: 500px;
-  width: 470px;
+  width: 100%;
+  height: auto;
 }
 
 .simple-ride__drivers__block__item {
+  max-width: 640px;
   font-family: Gilroy-Light;
   font-size: 16px;
   line-height: 28px;
@@ -4918,6 +4952,23 @@ input[type="radio"] {
 
 .short__line_margin2 {
   margin-bottom: 24px;
+}
+
+.map-section__transfer4 {
+  width: 100%;
+  min-height: 487px;
+  background: #ffffff;
+  border: 1px solid #cbe6ff;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.map-section__block_m1__transfer4 {
+  margin: 25px 7px 45px 0;
 }
 
 .ride__map-section {
@@ -4935,6 +4986,8 @@ input[type="radio"] {
 .ride__map-secton__main-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
 }
 
 .ride__map-section__block {
@@ -4942,7 +4995,7 @@ input[type="radio"] {
 }
 
 .ride__map-section__block_m1 {
-  margin: 22px 7px 45px 30px;
+  margin: 22px 7px 40px 0px;
 }
 
 .ride__input-block2 {
@@ -5074,6 +5127,15 @@ input[type="radio"] {
   margin-top: 15px;
 }
 
+.ride__map-section_exeption {
+  top: 290px;
+  position: absolute;
+}
+
+.ride__img__wrapper {
+  position: relative;
+}
+
 .ride__map-section__block__input {
   background: #f0f8ff;
   border: 1px solid #cbe6ff;
@@ -5110,7 +5172,7 @@ input[type="radio"] {
 }
 
 .ride__map-section__block_m2 {
-  margin: 22px 30px 0 7px;
+  margin: 22px 30px 40px 7px;
 }
 
 .ride__exept {
@@ -5140,7 +5202,7 @@ input[type="radio"] {
 
 .ride__map-section__block3__map {
   width: 260px;
-  height: 386px;
+  height: 320px;
   border-radius: 2px;
   background: url("../img/map3.png") no-repeat;
 }
@@ -6053,6 +6115,7 @@ input[type="radio"] {
   box-sizing: border-box;
   border-radius: 6px;
   margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .transfer2-map__wrapper {
@@ -6262,11 +6325,13 @@ input[type="radio"] {
 /* ----------- transfer2-map__block2 ----------- */
 
 .transfer2-map__block2 {
-  width: 770px;
+  max-width: 770px;
 }
 
 .transfer2__card {
+  position: relative;
   display: flex;
+  flex-wrap: wrap;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
   border-radius: 6px;
@@ -6411,6 +6476,7 @@ input[type="radio"] {
 .transfer3-map {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .transfer3-map__block1 {
@@ -6560,11 +6626,13 @@ input[type="radio"] {
 /* ----------- transfer3-map__block2 ----------- */
 
 .transfer3-map__block2 {
-  width: 770px;
+  max-width: 770px;
 }
 
 .transfer3__card {
+  max-width: 770px;
   display: flex;
+  flex-wrap: wrap;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
   border-radius: 6px;
@@ -6664,6 +6732,7 @@ input[type="radio"] {
 }
 
 .transfer3__card__block3__item2 {
+  margin-right: 40px;
   font-family: Roboto-Bold;
   font-size: 26px;
   color: #181818;
@@ -6701,7 +6770,7 @@ input[type="radio"] {
 }
 
 .transfer4-info {
-  height: 200px;
+  min-height: 200px;
   background: #ffffff;
   border: 1px solid #cbe6ff;
   box-sizing: border-box;
@@ -6731,6 +6800,7 @@ input[type="radio"] {
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 /* ------------------ aeroport --------------------- */
@@ -6742,20 +6812,27 @@ input[type="radio"] {
 .transfer4-aeroport__block-first,
 .transfer4-aeroport__block-second {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .transfer4-aeroport__block__img__wrapper1 {
   max-width: 470px;
   max-height: 340px;
   margin-bottom: 50px;
-  margin-right: 64px;
+  margin-right: 60px;
+}
+
+.transfer4-aeroport__block__img {
+  width: 100%;
+  height: auto;
 }
 
 .transfer4-aeroport__block__img__wrapper2 {
   max-width: 470px;
   max-height: 340px;
   margin-bottom: 40px;
-  margin-right: 64px;
+  margin-right: 60px;
 }
 
 .transfer4-aeroport__block__item1 {
@@ -6782,6 +6859,7 @@ input[type="radio"] {
 }
 
 .transfer4-aeroport__block__item__wrapper {
+  max-width: 640px;
   margin-top: 30px;
 }
 
@@ -6790,6 +6868,7 @@ input[type="radio"] {
 .transfer4-aeroport__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 87px;
 }
 
@@ -7092,6 +7171,8 @@ input[type="radio"] {
 
 .transfer4-aeroport__driver {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 86px;
 }
 
@@ -7104,6 +7185,7 @@ input[type="radio"] {
 }
 
 .transfer4-aeroport__driver__wrapper {
+  max-width: 819px;
   padding-top: 30px;
   margin-left: 42px;
 }
@@ -7120,6 +7202,7 @@ input[type="radio"] {
 .transfer4-aeroport__advantages {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .transfer4-aeroport__advantages__h3 {
@@ -7167,7 +7250,7 @@ input[type="radio"] {
 }
 
 .transfer4-aeroport__info-block {
-  height: 167px;
+  min-height: 167px;
   border: 2px solid #004e97;
   box-sizing: border-box;
   padding: 41px 52px 42px 52px;
@@ -7186,12 +7269,12 @@ input[type="radio"] {
 /* ---------------- meeting ---------------- */
 
 .meeting-info1 {
-  margin-bottom: 70px;
+  margin: 0 10px 70px;
 }
 
 .meeting-info__img {
-  width: 470px;
-  height: 340px;
+  max-width: 470px;
+  max-height: 340px;
 }
 
 .meeting-info__img img {
@@ -7199,10 +7282,13 @@ input[type="radio"] {
   height: auto;
 }
 
-.meeting-info__item1 p {
-  width: 640px;
+.meeting-info__item1 {
+  max-width: 640px;
   margin-top: 10px;
   margin-left: 55px;
+}
+
+.meeting-info__item1 p {
   font-family: Gilroy-Light;
   font-size: 16px;
   line-height: 28px;
@@ -7212,6 +7298,7 @@ input[type="radio"] {
 .meeting-info__wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 41px;
 }
 
@@ -7234,6 +7321,7 @@ input[type="radio"] {
 .meeting-list__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 61px;
 }
 
@@ -7790,6 +7878,13 @@ input[type="radio"] {
   .jorney__slider__right-btn {
     left: -35px;
   }
+  /*personal-driver*/
+  .pers__car-park__left-btn {
+    right: -35px;
+  }
+  .pers__car-park__right-btn {
+    left: -35px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -7854,7 +7949,13 @@ input[type="radio"] {
   .business__list__heading,
   .excursion__heading,
   .investors__heading,
-  .jorney__heading_big {
+  .jorney__heading_big,
+  .meeting-heading,
+  .pers__transfer__heading,
+  .simple-ride__heading,
+  .transfer3__heading,
+  .transfer4-heading,
+  .transfer4-aeroport__advantages__h3 {
     margin-left: 10px;
   }
   .short__line {
@@ -8032,6 +8133,75 @@ input[type="radio"] {
   .jorney__main__wrapper {
     justify-content: center;
   }
+  /*metting*/
+  .meeting-list__list__block__heading {
+    margin-left: 10px;
+  }
+  .meeting-list__list {
+    margin: 0 10px 61px;
+  }
+  .meeting-list__list__block1 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .meeting-info2 {
+    margin: 0 10px 83px;
+  }
+  .meeting-info__wrapper {
+    margin: 0 10px 41px;
+  }
+  /*personal-driver*/
+  .pers__price-block {
+    margin: 0 10px;
+  }
+  .pers__car-park__left-btn {
+    right: -25px;
+  }
+  .pers__car-park__right-btn {
+    left: -25px;
+  }
+  .pers__map-section__block__input_long {
+    width: 40rem;
+  }
+  .pers__pass__wrapper {
+    float: none;
+  }
+  /*simple-ride*/
+  .simple-ride__heading_small {
+    margin-left: 10px;
+  }
+  .simple-ride {
+    margin: 0 10px 88px;
+  }
+  .simple-ride__drivers {
+    margin: 0 10px 80px;
+  }
+  /*transfer2*/
+  .transfer2-map {
+    justify-content: center;
+  }
+  /*transfer3*/
+  .mobile-app__social_spec {
+    margin-top: 40px;
+  }
+  /*transfer4*/
+  .transfer4-aeroport {
+    margin: 0 10px 71px;
+  }
+  .transfer4-heading_small,
+  .transfer4-aeroport__list__block__heading {
+    margin-left: 10px;
+  }
+  .transfer4-aeroport__block__item__wrapper {
+    margin-bottom: 40px;
+  }
+  .transfer4-aeroport__list {
+    margin: 0 10px 87px;
+  }
+  .transfer4-aeroport__list__block1 {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 1169px) {
@@ -8042,6 +8212,13 @@ input[type="radio"] {
   .jorney__slider__right-btn {
     left: 160px;
     top: 600px;
+  }
+  /*personal-driver*/
+  .pers__car-park__left-btn {
+    right: 190px;
+  }
+  .pers__car-park__right-btn {
+    left: 160px;
   }
 }
 
@@ -8294,6 +8471,28 @@ input[type="radio"] {
     left: 160px;
     top: 265px;
   }
+  /*personal-driver*/
+  .pers__map-section__block__input_long {
+    width: 370px;
+  }
+  .pers__img__bloc,
+  .about__driver {
+    float: none;
+  }
+  .pers__img__bloc {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .ride__map-section_exeption {
+    position: static;
+  }
+  /*transfer4*/
+  .transfer4-info {
+    margin: 0 10px 80px;
+  }
+  .transfer4-aeroport__block__img__wrapper1 {
+    margin: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -8491,6 +8690,93 @@ input[type="radio"] {
     top: 265px;
     left: 60px;
   }
+  /*personal-driver*/
+  .pers__car-park__card_second,
+  .pers__car-park__card_third {
+    display: none;
+  }
+  .pers__driver__item {
+    margin: 30px 10px 0;
+  }
+  .pers__driver-info {
+    margin: 0 10px 60px;
+  }
+  .pers__driver-block__button {
+    margin: 20px 31px 60px;
+  }
+  .pers__driver-block__item1,
+  .pers__driver-block__item2 {
+    margin-left: 31px;
+  }
+  /*transfer2*/
+  .transfer2-map__block2 {
+    margin: 0 auto 60px;
+  }
+  .transfer2__card {
+    width: 375px;
+  }
+  .transfer2__card__block2__item1 {
+    position: absolute;
+    width: 112px;
+    height: 74px;
+    margin: 0;
+    top: 51px;
+    right: 18px;
+  }
+  .transfer2__vertical__line {
+    position: absolute;
+    left: 185px;
+    height: 363px;
+    transform: rotate(90deg);
+  }
+  .transfer2__card__block3 button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .transfer2__button__block button {
+    margin-bottom: 0;
+  }
+  .transfer2-map__block1 {
+    margin-right: 0;
+  }
+  /*transfer3*/
+  .transfer3-map__block1 {
+    margin-bottom: 20px;
+  }
+  .transfer3-map__block2 {
+    margin: 0 auto 20px;
+  }
+  .transfer3__card {
+    position: relative;
+    width: 375px;
+  }
+  .transfer3__card__block2__item1 {
+    position: absolute;
+    width: 112px;
+    height: 74px;
+    margin: 0;
+    top: -160px;
+    right: -120px;
+  }
+  .transfer3-vertical__line {
+    position: absolute;
+    left: 185px;
+    height: 363px;
+    transform: rotate(90deg);
+  }
+  .transfer3__card__block3__item2 {
+    margin-top: 13px;
+  }
+  .transfer3__card__block3__item1 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .transfer3__card__block3__item3 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -8616,6 +8902,72 @@ input[type="radio"] {
   /*safity*/
   .safity__wrapper__main2 {
     margin-left: 0;
+  }
+  /*meeting*/
+  .meeting-info1 {
+    margin-bottom: 40px;
+  }
+  .meeting-info__item1 {
+    margin: 20px auto 0;
+  }
+  .meeting-list__list {
+    margin-bottom: 40px;
+  }
+  .meeting-info2 {
+    margin-bottom: 60px;
+  }
+  /*personal-driver*/
+  .pers__car-park__card_first {
+    margin: 0;
+  }
+  .pers__car-park {
+    margin-bottom: 40px;
+  }
+  .pers__map-block {
+    width: 374px;
+    height: 654px;
+    margin: 0 auto 60px;
+  }
+  .pers__map-block__wrapper {
+    margin: 11px 20px 0;
+  }
+  .pers__map-section__block__input_long {
+    width: 334px;
+  }
+  .pers__small,
+  .pers__map-section__block__button {
+    width: 156px;
+  }
+  .pers__data__wrapper {
+    margin-right: 0;
+  }
+  .pers__map-section__second-wrapper,
+  .pers__map-section__fourth-wrapper {
+    margin-right: 16px;
+  }
+  .pers__img__bloc {
+    margin: 27px auto 16px;
+  }
+  .pers__img__bloc img {
+    width: 333px;
+    height: 200px;
+  }
+  .pers__car-park__right-btn {
+    left: 10px;
+  }
+  .pers__car-park__left-btn {
+    right: 10px;
+  }
+  /*simple-ride*/
+  .ride__input-block2 {
+    margin-top: 20px;
+  }
+  .ride__map-section__block_m1 {
+    margin: 22px 7px 10px 0px;
+  }
+  /*transfer3*/
+  .transfer3-map__block1 {
+    margin-right: 0;
   }
 }
 
@@ -9334,6 +9686,218 @@ input[type="radio"] {
     font-size: 30px;
     margin-left: 10px;
   }
+  /*meeting*/
+  .meeting-heading {
+    font-size: 30px;
+  }
+  /*personal-driver*/
+  .pers__driver-info {
+    margin-bottom: 40px;
+  }
+  .pers__transfer__heading {
+    font-size: 30px;
+  }
+
+  .pers__driver-block__item1 {
+    font-size: 22px;
+    width: 279px;
+    margin-top: 32px;
+  }
+  .pers__driver-block__item2 {
+    width: 320px;
+  }
+  .pers__driver-block__button {
+    margin-bottom: 38px;
+  }
+  .pers__driver__item {
+    margin-top: 24px;
+  }
+  .pers__marg {
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+  .pers__map-block__wrapper {
+    position: relative;
+  }
+  .pers__data__wrapper {
+    position: absolute;
+    width: 334px;
+    left: 0;
+  }
+  .pers__map-section__fourth-wrapper,
+  .pers__map-section__sixth-wrapper {
+    margin: 0;
+    position: absolute;
+    top: 175px;
+  }
+  .pers__map-section__sixth-wrapper {
+    margin-left: 20px;
+  }
+  .pers__map-section__block__button {
+    margin-left: 20px;
+  }
+  .pers__pass__wrapper {
+    margin-top: 410px;
+  }
+  .pers__img__bloc {
+    position: absolute;
+    top: 270px;
+  }
+
+  /*simple-ride*/
+  .container_blue {
+    padding-top: 63px;
+    padding-bottom: 72px;
+    margin-bottom: 60px;
+    background: rgba(240, 248, 255, 0.6);
+  }
+  .simple-ride {
+    margin-bottom: 40px;
+  }
+  .simple-ride__drivers {
+    margin-bottom: 60px;
+  }
+  .simple-ride__block__item2 {
+    margin: 24px 30px 20px;
+  }
+  .simple-ride__drivers__block__img__wrapper {
+    margin: 0;
+  }
+  .simple-ride__heading {
+    font-size: 30px;
+  }
+  .simple-ride__heading_small {
+    font-size: 20px;
+  }
+  .ride__map-secton__main-wrapper {
+    position: relative;
+  }
+  .ride__map-section {
+    width: 374px;
+    margin: 0 auto;
+  }
+  .ride__map-section__block_m1 {
+    margin: 11px 20px 0;
+  }
+  .ride__map-section__block__input_big {
+    width: 334px;
+  }
+  .small,
+  .ride__map-section__block__input1__wrapper,
+  .aeroport__small,
+  .ride__small,
+  .ride__map-section__block__wrapper2,
+  .ride__map-section__block__wrapper1,
+  .ride__map-section__block__input_hidden,
+  .ride__map-section__block__button_hidden {
+    width: 156px;
+  }
+  .ride__map-section__block__wrapper2 {
+    margin-left: 0;
+  }
+  .ride__map-section__block__wrapper1 {
+    margin-right: 20px;
+  }
+  .ride__input-block2 {
+    margin-top: 26px;
+  }
+  .ride__map-section__button {
+    margin: 0;
+  }
+  .ride__map-section__block_m2 {
+    margin: 0 20px;
+  }
+  .ride__map-section__button {
+    position: absolute;
+    top: 108px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+  }
+  .ride__map-section__button1,
+  .ride__map-section__button2 {
+    width: 12px;
+  }
+  .ride__map-section__button2 {
+    padding-bottom: 5px;
+  }
+  .ride__hide-on-small {
+    display: none;
+  }
+  .ride__map-section__block3__map {
+    width: 333px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .ride__map-section__block_m3 {
+    margin-top: 26px;
+  }
+  .ride__map-section_exept {
+    width: 332px;
+    margin-top: 230px;
+    margin-bottom: 41px;
+  }
+  /*transfer3*/
+
+  .transfer3__heading {
+    font-size: 30px;
+  }
+  /*transfer4*/
+  .transfer4-heading {
+    font-size: 30px;
+  }
+  .transfer4-aeroport__list__block__heading,
+  .transfer4-heading_small {
+    font-size: 22px;
+  }
+  .map-section__transfer4 {
+    margin: 0 auto;
+  }
+  .transfer4-block__item2 {
+    margin: 24px 30px 20px;
+  }
+  .transfer4-block__button {
+    margin-left: 30px;
+    margin-bottom: 36px;
+  }
+  .transfer4-info {
+    margin-bottom: 50px;
+  }
+  .transfer4-aeroport__block__img__wrapper2 {
+    margin: 0;
+  }
+  .transfer4-aeroport {
+    margin-bottom: 60px;
+  }
+  .transfer4-aeroport__list {
+    margin-bottom: 67px;
+  }
+  .container-fluid_padding {
+    padding-top: 63px;
+    padding-bottom: 70px;
+    margin-bottom: 60px;
+  }
+  .transfer4-aeroport__driver {
+    margin-bottom: 60px;
+  }
+  .transfer4-aeroport__advantages__block,
+  .transfer4-aeroport__advantages__block,
+  .transfer4-aeroport__advantages__block {
+    margin: 0;
+  }
+  .transfer4-aeroport__advantages__block {
+    width: 374px;
+    margin-bottom: 30px;
+  }
+  .transfer4-aeroport__advantages {
+    margin: 0 10px;
+  }
+  .transfer4-aeroport__info-block {
+    margin-top: 24px;
+    margin-bottom: 60px;
+  }
 
   /*footer*/
   .footer__hidden__wrapper {
@@ -9353,7 +9917,6 @@ input[type="radio"] {
     height: 50px;
     width: 414px;
   }
-
   .footer__dropdown {
     visibility: hidden;
     opacity: 0;
